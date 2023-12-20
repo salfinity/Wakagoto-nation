@@ -1,5 +1,10 @@
 import InsightRoll from "/src/components/About/InsightRoll";
 
+export const metadata = {
+  title: "My Books",
+  description: `Check out my latest books.`,
+};
+
 const insights = [
   "20+ Projects Completed",
   "10+ Years of Management Experience",

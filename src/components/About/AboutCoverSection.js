@@ -34,7 +34,7 @@ export default function AboutCoverSection() {
       className="max-w-8xl mb-28 md:mb-40 flex flex-col items-center space-y-2 justify-center text-center sm:mb-0 scroll-mt-[100rem] h-screen overflow-hidden"
     >
       <BackgroundCircles />
-      <div className="flex items-center justify-center max-w-6xl z-50">
+      <div className="flex items-center justify-center max-w-6xl z-10">
         <div className="relative">
           <motion.div
             initial={{ opacity: 0, scale: 0 }}
@@ -57,7 +57,7 @@ export default function AboutCoverSection() {
         </div>
       </div>
       <motion.h2
-        className="px-4 text-2xl uppercase font-thin tracking-[15px] !leading-[1.5] sm:text-4xl z-50"
+        className="px-4 text-2xl uppercase font-thin tracking-[15px] !leading-[1.5] sm:text-4xl z-10"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
@@ -68,7 +68,7 @@ export default function AboutCoverSection() {
       </motion.h2>
 
       <motion.h1
-        className="px-4 text-2xl text-black dark:text-white font-medium !leading-[1.5] sm:text-4xl z-50 overflow-hidden"
+        className="px-4 text-2xl text-black dark:text-white font-medium !leading-[1.5] sm:text-4xl z-10 overflow-hidden"
         style={{ height: "3em" }}
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
@@ -78,7 +78,7 @@ export default function AboutCoverSection() {
       </motion.h1>
 
       <motion.h3
-        className="py-2 px-4 text-xl uppercase text-black dark:text-white font-thin !leading-[1.5] sm:text-2xl z-50"
+        className="py-2 px-4 text-xl uppercase text-black dark:text-white font-thin !leading-[1.5] sm:text-2xl z-10"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
@@ -96,7 +96,7 @@ export default function AboutCoverSection() {
       </motion.h3>
 
       <motion.div
-        className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium z-50"
+        className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium z-10"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{
@@ -105,7 +105,7 @@ export default function AboutCoverSection() {
       >
         <Link
           href="#contact"
-          className="group bg-slate-400 dark:bg-slate-600 text-black dark:text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition z-50"
+          className="group bg-slate-400 dark:bg-slate-600 text-black dark:text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition z-10"
           onClick={() => {
             setActiveSection("Contact");
             setTimeOfLastClick(Date.now());
@@ -116,7 +116,7 @@ export default function AboutCoverSection() {
         </Link>
 
         <a
-          className="group bg-slate-300 px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 z-50"
+          className="group bg-slate-300 px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 z-10"
           href="/CV.pdf"
           download
         >
@@ -126,7 +126,7 @@ export default function AboutCoverSection() {
 
         <motion.div className="flex sm:flex-col md:flex-row gap-4">
           <a
-            className="bg-slate-200 p-4 text-gray-700 hover:text-gray-950 flex items-center gap-4 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60 z-50"
+            className="bg-slate-200 p-4 text-gray-700 hover:text-gray-950 flex items-center gap-4 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60 z-10"
             href="https://ke.linkedin.com/in/dr-mohamed-bahaidar-73527313a/"
             target="_blank"
           >
@@ -134,7 +134,7 @@ export default function AboutCoverSection() {
           </a>
 
           <a
-            className="bg-slate-200 p-4 text-gray-700 flex items-center gap-4 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60 z-50"
+            className="bg-slate-200 p-4 text-gray-700 flex items-center gap-4 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60 z-10"
             href="https://www.instagram.com/doctorbahaidar/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA=="
             target="_blank"
           >
@@ -142,7 +142,7 @@ export default function AboutCoverSection() {
           </a>
 
           <a
-            className="bg-slate-200 p-4 text-gray-700 flex items-center gap-4 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60 z-50"
+            className="bg-slate-200 p-4 text-gray-700 flex items-center gap-4 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60 z-10"
             href="https://www.youtube.com/@dr.mbahaidar2308"
             target="_blank"
           >
@@ -150,7 +150,7 @@ export default function AboutCoverSection() {
           </a>
 
           <a
-            className="bg-slate-200 p-4 text-gray-700 flex items-center gap-4 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60 z-50"
+            className="bg-slate-200 p-4 text-gray-700 flex items-center gap-4 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60 z-10"
             href="https://www.tiktok.com/@doctor_bahaidar"
             target="_blank"
           >
