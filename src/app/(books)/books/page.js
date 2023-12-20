@@ -1,8 +1,8 @@
 "use client";
 
-import { booksData } from "@/lib/data";
+import { booksData } from "/lib/data";
 import { motion } from "framer-motion";
-import TransitionEffect from "@/src/components/TransitionEffect";
+import TransitionEffect from "/src/components/TransitionEffect";
 import React from "react";
 
 export default function Books() {

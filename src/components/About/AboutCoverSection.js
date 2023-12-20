@@ -12,7 +12,7 @@ import {
   FaWhatsappSquare,
   FaYoutube,
 } from "react-icons/fa";
-import bahaidarImg from "@/public/hero.jpg";
+import bahaidarImg from "/public/hero.jpg";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
 import BackgroundCircles from "./BackgroundCircles";
 

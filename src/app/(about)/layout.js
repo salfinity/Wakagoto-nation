@@ -1,6 +1,6 @@
 "use client";
-import InsightRoll from "@/src/components/About/InsightRoll";
-import TransitionEffect from "@/src/components/TransitionEffect";
+import InsightRoll from "/src/components/About/InsightRoll";
+import TransitionEffect from "/src/components/TransitionEffect";
 
 const insights = [
   "20+ Projects Completed",
