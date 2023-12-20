@@ -9,10 +9,10 @@ import {
   SunIcon,
   TwitterIcon,
 } from "../Icons";
-import siteMetadata from "@/src/utils/siteMetaData";
+import siteMetadata from "/src/utils/siteMetaData";
 import { useThemeSwitch } from "../Hooks/useThemeSwitch";
 import { useState } from "react";
-import { cx } from "@/src/utils";
+import { cx } from "/src/utils";
 
 const Header = () => {
   const [mode, setMode] = useThemeSwitch();
@@ -103,7 +103,7 @@ const Header = () => {
 
       <nav
         className=" w-max py-3 px-8 border border-solid border-dark rounded-full font-medium capitalize  items-center hidden sm:flex
-        fixed top-6 right-1/2 translate-x-1/2 bg-light/80 backdrop-blur-sm z-50"
+        fixed top-6 right-1/2 translate-x-1/2 bg-light/80 backdrop-blur-sm z-[999]"
       >
         <Link href="/" className="mr-2">
           Home

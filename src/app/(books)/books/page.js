@@ -19,7 +19,7 @@ export default function Books() {
         transition={{ delay: 0.175 }}
         id="books"
       >
-        <div className="max-w-full flex overflow-x-scroll py-4 overflow-y-scroll md:overflow-y-scroll  snap-x snap-mandatory">
+        <div className="max-w-full flex overflow-x-scroll py-4 overflow-y-scroll md:overflow-y-scroll  snap-x snap-mandatory p-4 md:p-24">
           {booksData.map((book, index) => (
             <div
               key={index}
