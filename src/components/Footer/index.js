@@ -1,7 +1,9 @@
 "use client";
 import React from "react";
 import { useForm } from "react-hook-form";
-import { DribbbleIcon, GithubIcon, LinkedinIcon, TwitterIcon } from "../Icons";
+import { LinkedinIcon, TwitterIcon } from "../Icons";
+import { FaFacebook, FaYoutube, FaInstagramSquare } from "react-icons/fa";
+import { PiTiktokLogoLight } from "react-icons/pi";
 import Link from "next/link";
 import siteMetadata from "../../utils/siteMetaData";
 
@@ -17,11 +19,14 @@ const Footer = () => {
   return (
     <footer className="mt-16 rounded-2xl bg-dark dark:bg-accentDark/90 m-2 sm:m-10 flex flex-col items-center text-light dark:text-dark">
       <h3 className="mt-16 font-medium dark:font-bold text-center capitalize text-2xl sm:text-3xl lg:text-4xl px-4">
-        Interesting Stories | Updates | Guides
+        Engaging Narratives | Literary Insights | Strategic Wisdom
       </h3>
       <p className="mt-5 px-4 text-center w-full sm:w-3/5 font-light dark:font-medium text-sm sm:text-base">
-        Subscribe to learn about new technology and updates. Join over 5000+
-        members community to stay up to date with latest news.
+        Subscribe for captivating blog posts, the latest literary releases, and
+        strategic insights. Join our thriving community of over +15000 members
+        to stay abreast of groundbreaking stories, new releases and updates in
+        the dynamic realms of business consulting, media management, and
+        literary exploration.
       </p>
 
       <form
@@ -42,6 +47,17 @@ const Footer = () => {
       </form>
       <div className="flex items-center mt-8">
         <a
+          href={siteMetadata.instagram}
+          className="inline-block w-6 h-6 mr-4"
+          aria-label="Reach out to me via LinkedIn"
+          target="_blank"
+        >
+          <FaInstagramSquare
+            size={25}
+            className="text-pink-600 hover:scale-125 transition-all ease cursor-pointer duration-200"
+          />
+        </a>
+        <a
           href={siteMetadata.linkedin}
           className="inline-block w-6 h-6 mr-4"
           aria-label="Reach out to me via LinkedIn"
@@ -58,20 +74,37 @@ const Footer = () => {
           <TwitterIcon className="hover:scale-125 transition-all ease duration-200" />
         </a>
         <a
-          href={siteMetadata.github}
-          className="inline-block w-6 h-6 mr-4 fill-light"
-          aria-label="Check my profile on Github"
+          href={siteMetadata.youtube}
+          className="inline-block w-6 h-6 mr-4"
+          aria-label="Check my profile on Twitter"
           target="_blank"
         >
-          <GithubIcon className="fill-light dark:fill-dark  hover:scale-125 transition-all ease duration-200" />
+          <FaYoutube
+            size={30}
+            className="text-red-600 hover:scale-125 transition-all ease duration-200 "
+          />
         </a>
         <a
-          href={siteMetadata.dribbble}
+          href={siteMetadata.tiktok}
+          className="inline-block w-6 h-6 mr-4"
+          aria-label="Check my profile on Twitter"
+          target="_blank"
+        >
+          <PiTiktokLogoLight
+            size={30}
+            className="text-purple-900 dark:text-white hover:scale-125 transition-all ease duration-200 "
+          />
+        </a>
+        <a
+          href={siteMetadata.facebook}
           className="inline-block w-6 h-6 mr-4"
           aria-label="Check my profile on Dribbble"
           target="_blank"
         >
-          <DribbbleIcon className="hover:scale-125 transition-all ease duration-200" />
+          <FaFacebook
+            size={30}
+            className="text-blue-600 hover:scale-125 transition-all ease duration-200"
+          />
         </a>
       </div>
 

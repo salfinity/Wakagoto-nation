@@ -1,14 +1,9 @@
 "use client";
 import Link from "next/link";
 import Logo from "./Logo";
-import {
-  DribbbleIcon,
-  GithubIcon,
-  LinkedinIcon,
-  MoonIcon,
-  SunIcon,
-  TwitterIcon,
-} from "../Icons";
+import { LinkedinIcon, MoonIcon, SunIcon, TwitterIcon } from "../Icons";
+import { FaFacebook, FaYoutube, FaInstagramSquare } from "react-icons/fa";
+import { PiTiktokLogoLight } from "react-icons/pi";
 import siteMetadata from "/src/utils/siteMetaData";
 import { useThemeSwitch } from "../Hooks/useThemeSwitch";
 import { useState } from "react";
@@ -21,6 +16,7 @@ const Header = () => {
   const toggle = () => {
     setClick(!click);
   };
+
   return (
     <header className="w-full p-4  px-5 sm:px-10 flex items-center justify-between">
       <Logo />
@@ -134,6 +130,17 @@ const Header = () => {
       </nav>
       <div className=" hidden sm:flex items-center">
         <a
+          href={siteMetadata.instagram}
+          className="inline-block w-6 h-6 mr-4"
+          aria-label="Reach out to me via LinkedIn"
+          target="_blank"
+        >
+          <FaInstagramSquare
+            size={25}
+            className="text-pink-600 hover:scale-125 transition-all ease cursor-pointer duration-200"
+          />
+        </a>
+        <a
           href={siteMetadata.linkedin}
           className="inline-block w-6 h-6 mr-4"
           aria-label="Reach out to me via LinkedIn"
@@ -150,24 +157,40 @@ const Header = () => {
           <TwitterIcon className="hover:scale-125 transition-all ease duration-200" />
         </a>
         <a
-          href={siteMetadata.github}
+          href={siteMetadata.youtube}
           className="inline-block w-6 h-6 mr-4"
-          aria-label="Check my profile on Github"
+          aria-label="Check my profile on Twitter"
           target="_blank"
         >
-          <GithubIcon className="  hover:scale-125 transition-all ease duration-200 dark:fill-light" />
+          <FaYoutube
+            size={30}
+            className="text-red-600 hover:scale-125 transition-all ease duration-200 "
+          />
         </a>
         <a
-          href={siteMetadata.dribbble}
+          href={siteMetadata.tiktok}
+          className="inline-block w-6 h-6 mr-4"
+          aria-label="Check my profile on Twitter"
+          target="_blank"
+        >
+          <PiTiktokLogoLight
+            size={30}
+            className="text-purple-900 dark:text-white hover:scale-125 transition-all ease duration-200 "
+          />
+        </a>
+        <a
+          href={siteMetadata.facebook}
           className="inline-block w-6 h-6 mr-4"
           aria-label="Check my profile on Dribbble"
           target="_blank"
         >
-          <DribbbleIcon className="hover:scale-125 transition-all ease duration-200" />
+          <FaFacebook
+            size={30}
+            className="text-blue-600 hover:scale-125 transition-all ease duration-200"
+          />
         </a>
       </div>
     </header>
   );
 };
-
 export default Header;

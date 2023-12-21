@@ -1,58 +1,71 @@
 "use client";
+
 import React from "react";
-import { useForm } from "react-hook-form";
+import { motion } from "framer-motion";
+import { sendEmail } from "/actions/sendEmail";
+import SubmitBtn from "./submit-btn";
+import toast from "react-hot-toast";
 
-export default function ContactForm() {
-  const {
-    register,
-    handleSubmit,
-    formState: { errors },
-  } = useForm();
-  const onSubmit = (data) => console.log(data);
-  console.log(errors);
-
+export default function Contact() {
   return (
-    <form
-      onSubmit={handleSubmit(onSubmit)}
-      className="mt-12 text-base xs:text-lg sm:text-xl font-medium leading-relaxed font-in"
+    <motion.section
+      id="contact"
+      className="mb-5 mt-0 sm:mb-8 w-[min(100%,38rem)] text-center   flex flex-col  max-w-6xl justify-center h-screen"
+      initial={{
+        opacity: 0,
+      }}
+      whileInView={{
+        opacity: 1,
+      }}
+      transition={{
+        duration: 1,
+      }}
+      viewport={{
+        once: true,
+      }}
     >
-      Hello! My name is{" "}
-      <input
-        type="text"
-        placeholder="your name"
-        {...register("name", { required: true, maxLength: 80 })}
-        className="outline-none border-0 p-0 mx-2 focus:ring-0 placeholder:text-center placeholder:text-lg border-b border-gray 
-        focus:border-gray bg-transparent"
-      />
-      and I want to discuss a potential project. You can email me at
-      <input
-        type="email"
-        placeholder="your@email"
-        {...register("email", {})}
-        className="outline-none border-0 p-0 mx-2 focus:ring-0 placeholder:text-center placeholder:text-lg border-b border-gray 
-        focus:border-gray bg-transparent"
-      />
-      or reach out to me on
-      <input
-        type="tel"
-        placeholder="your phone"
-        {...register("phone number", {})}
-        className="outline-none border-0 p-0 mx-2 focus:ring-0 placeholder:text-center placeholder:text-lg border-b border-gray 
-        focus:border-gray bg-transparent"
-      />
-      Here are some details about my project: <br />
-      <textarea
-        {...register("project details", {})}
-        placeholder="My project is about..."
-        rows={3}
-        className="w-full outline-none border-0 p-0 mx-0 focus:ring-0  placeholder:text-lg border-b border-gray 
-        focus:border-gray bg-transparent"
-      />
-      <input
-        type="submit"
-        value="send request"
-        className="mt-8 font-medium inline-block capitalize text-lg sm:text-xl py-2 sm:py-3 px-6 sm:px-8 border-2 border-solid border-dark dark:border-light rounded cursor-pointer"
-      />
-    </form>
+      <h2 className="top-0 uppercase text-3xl tracking-[20px] text-black dark:text-white mb-8">
+        Contact me
+      </h2>
+
+      <p className="text-gray-700 -mt-6 dark:text-white/80">
+        Please contact me directly at{" "}
+        <a className="underline" href="mailto:drbahaidar@gmail.com">
+          Info@drbahaidar.com
+        </a>{" "}
+        or through this form.
+      </p>
+
+      <form
+        className="mt-10 flex flex-col dark:text-black"
+        action={async (formData) => {
+          const { data, error } = await sendEmail(formData);
+
+          if (error) {
+            toast.error(error);
+            return;
+          }
+
+          toast.success("Email sent successfully!");
+        }}
+      >
+        <input
+          className="h-14 px-4 rounded-lg borderBlack dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
+          name="senderEmail"
+          type="email"
+          required
+          maxLength={500}
+          placeholder="Your email"
+        />
+        <textarea
+          className="h-52 my-3 rounded-lg borderBlack p-4 dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
+          name="message"
+          placeholder="Your message"
+          required
+          maxLength={5000}
+        />
+        <SubmitBtn />
+      </form>
+    </motion.section>
   );
 }
