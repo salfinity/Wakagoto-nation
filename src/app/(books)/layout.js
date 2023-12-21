@@ -1,4 +1,5 @@
 import InsightRoll from "/src/components/About/InsightRoll";
+import CircleWhatsapp from "/src/components/books/CircleWhatsapp";
 
 export const metadata = {
   title: "My Books",
@@ -22,6 +23,7 @@ export default function AboutLayout({ children }) {
     <main className="w-full flex flex-col items-center justify-between">
       <InsightRoll insights={insights} />
       {children}
+      <CircleWhatsapp />
     </main>
   );
 }

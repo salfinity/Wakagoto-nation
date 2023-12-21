@@ -1,3 +1,21 @@
+"use client";
+
+import { motion } from "framer-motion";
+
+const fadeInAnimationVariants = {
+  initial: {
+    opacity: 0,
+    y: 100,
+  },
+  animate: (index) => ({
+    opacity: 1,
+    y: 0,
+    transition: {
+      delay: 0.05 * index,
+    },
+  }),
+};
+
 const SkillList = [
   "Leadership",
   "Strategic Management",
@@ -18,29 +36,33 @@ const SkillList = [
   "Counseling",
 ];
 
-const Skills = () => {
+export default function Skills() {
+  const skillsData = SkillList;
   return (
     <section
-      className="w-full flex flex-col p-5 xs:p-10 sm:p-12 md:p-16 lg:p-20 border-b-2 border-solid border-dark dark:border-light
-     text-dark dark:text-light"
+      id="skills"
+      className="flex flex-col max-w-6xl text-center  sm:mb-16"
     >
       <span className="font-semibold text-lg sm:text-3xl md:text-4xl text-accent dark:text-accentDark">
         Here are my Skills...
       </span>
-      <ul className="flex flex-wrap mt-8 justify-center  xs:justify-start">
-        {SkillList.map((item, index) => {
-          return (
-            <li
-              key={index}
-              className="font-semibold inline-block capitalize text-base xs:text-lg sm:text-xl  md:text-2xl py-2 xs:py-3 sm:py-4 lg:py-5 px-4 xs:px-6 sm:px-8 lg:px-12 border-2 border-solid border-dark dark:border-light rounded mr-3 mb-3 xs:mr-4 xs:mb-4  md:mr-6 md:mb-6 hover:scale-105 transition-all ease duration-200 cursor-pointer dark:font-normal"
-            >
-              {item}
-            </li>
-          );
-        })}
+      <ul className="flex flex-wrap mt-4 justify-center gap-2 text-lg text-gray-800">
+        {skillsData.map((skill, index) => (
+          <motion.li
+            className="bg-white borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:text-white/80"
+            key={index}
+            variants={fadeInAnimationVariants}
+            initial="initial"
+            whileInView="animate"
+            viewport={{
+              once: true,
+            }}
+            custom={index}
+          >
+            {skill}
+          </motion.li>
+        ))}
       </ul>
     </section>
   );
-};
-
-export default Skills;
+}

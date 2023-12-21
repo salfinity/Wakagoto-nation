@@ -2,7 +2,7 @@
 import Link from "next/link";
 import Logo from "./Logo";
 import { LinkedinIcon, MoonIcon, SunIcon, TwitterIcon } from "../Icons";
-import { FaFacebook, FaYoutube, FaInstagramSquare } from "react-icons/fa";
+import { FaFacebook, FaYoutube, FaInstagram } from "react-icons/fa";
 import { PiTiktokLogoLight } from "react-icons/pi";
 import siteMetadata from "/src/utils/siteMetaData";
 import { useThemeSwitch } from "../Hooks/useThemeSwitch";
@@ -135,9 +135,9 @@ const Header = () => {
           aria-label="Reach out to me via LinkedIn"
           target="_blank"
         >
-          <FaInstagramSquare
+          <FaInstagram
             size={25}
-            className="text-pink-600 hover:scale-125 transition-all ease cursor-pointer duration-200"
+            className="bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 hover:scale-125 transition-all ease cursor-pointer rounded-md text-white duration-200"
           />
         </a>
         <a
