@@ -29,7 +29,7 @@ const Modal = ({ isOpen, onClose }) => {
 
   return (
     <div
-      className="fixed inset-0 p-6 md:p-48 flex flex-wrap 
+      className="fixed inset-0 p-6 md:p-24 flex flex-wrap 
       justify-center items-center w-full mx-auto h-full z-[1000] 
       before:fixed before:inset-0 before:w-full before:h-full 
       before:bg-[rgba(0,0,0,0.5)] overflow-auto font-[sans-serif]"
