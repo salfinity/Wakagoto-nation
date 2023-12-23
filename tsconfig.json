@@ -25,7 +25,7 @@
     "**/*.tsx",
     "lib/utils.js",
     "actions/sendEmail.js",
-    "email/contact-form-email.js",
+    "src/components/email/contact-form-email.js",
     "src/components/Contact/submit-btn.js"
   ],
   "exclude": ["node_modules"]

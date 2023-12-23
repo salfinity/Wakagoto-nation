@@ -1,5 +1,4 @@
 import ContactForm from "/src/components/Contact/ContactForm";
-import Image from "next/image";
 import siteMetadata from "/src/utils/siteMetaData";
 
 export const metadata = {

@@ -46,6 +46,8 @@ export default function Contact() {
             return;
           }
 
+          console.log(data);
+
           toast.success("Email sent successfully!");
         }}
       >

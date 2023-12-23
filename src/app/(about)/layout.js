@@ -1,6 +1,7 @@
 "use client";
 import InsightRoll from "/src/components/About/InsightRoll";
 import TransitionEffect from "/src/components/TransitionEffect";
+import { Toaster } from "react-hot-toast";
 
 const insights = [
   "20+ Projects Completed",
@@ -21,6 +22,7 @@ export default function AboutLayout({ children }) {
       <main className="w-full flex flex-col items-center justify-between">
         <InsightRoll insights={insights} />
         {children}
+        <Toaster position="top-right" />
       </main>
     </>
   );
