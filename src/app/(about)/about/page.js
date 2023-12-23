@@ -1,7 +1,7 @@
 import AboutCoverSection from "/src/components/About/AboutCoverSection";
 import Skills from "/src/components/About/Skills";
 import Link from "next/link";
-import Projects from "/src/components/About/Projects";
+import Projects from "/src/components/About/projects";
 
 export const metadata = {
   title: "About Me",
