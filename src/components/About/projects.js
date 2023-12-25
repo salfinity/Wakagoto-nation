@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { projectsData } from "/lib/data";
+import { profilesData } from "/lib/data";
 import Project from "./project";
 
 export default function Projects() {
@@ -17,7 +17,7 @@ export default function Projects() {
         Have a look at it...
       </span>
       <div>
-        {projectsData.map((project, index) => (
+        {profilesData.map((project, index) => (
           <React.Fragment key={index}>
             <Project {...project} />
           </React.Fragment>

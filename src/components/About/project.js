@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { motion, useScroll, useTransform } from "framer-motion";
 
 export default function Project({ title, description, tags, imageUrl }) {
@@ -27,10 +28,17 @@ export default function Project({ title, description, tags, imageUrl }) {
           <ul className="flex flex-wrap mt-4 gap-2 sm:mt-auto">
             {tags.map((tag, index) => (
               <li
-                className="bg-black/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:text-white/70"
+                className="bg-black z-50 hover:scale-[1.15] active:scale-105 
+                transition-all  px-3 py-3 text-base uppercase tracking-wider text-white rounded-full dark:text-white/70"
                 key={index}
               >
-                {tag}
+                <Link
+                  href={`/profiles/${encodeURIComponent(
+                    tag.name.toLowerCase().replace(/\s/g, "-")
+                  )}`}
+                >
+                  <span>{tag.name}</span>
+                </Link>
               </li>
             ))}
           </ul>

@@ -3,6 +3,7 @@
 import { booksData } from "/lib/data";
 import { motion } from "framer-motion";
 import TransitionEffect from "/src/components/TransitionEffect";
+import CoureselBooks from "src/components/About/CoureselBooks";
 import React from "react";
 
 export default function Books() {
@@ -60,9 +61,13 @@ export default function Books() {
             </div>
           ))}
         </div>
-
-        <div className="hidden w-full absolute top-[30%] bg-[#ff0000]/10 left-0 h-[500px] -skew-y-12" />
       </motion.div>
+      <div className="mt-20">
+        <h2 className="uppercase text-black dark:text-white text-3xl tracking-[20px] text-center mt-10 mx-auto">
+          Book Blurbs
+        </h2>
+        <CoureselBooks />
+      </div>
     </>
   );
 }
