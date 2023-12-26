@@ -9,6 +9,10 @@ const nextConfig = {
   experimental: {
     serverActions: true,
   },
+  reactStrictMode: true,
+  images: {
+    domains: ["res.cloudinary.com"],
+  },
 };
 
 module.exports = withContentlayer({ ...nextConfig });

@@ -1,24 +1,23 @@
 // please update required information
 const siteMetadata = {
-  title: "Dr. Mohamed Bahaidar | CEO IqraFM | Author & business consultant.",
-  author: "Salfinity",
-  headerTitle: "Dr. Mohamed Bahaidar",
-  description:
-    "A blog created with Next.js, Tailwind.css and contentlayer by salfinity.",
+  title: "IQRA FM 95.0 | Idhaailiotofauti.",
+  author: "Dr Mohamed Bahaidar",
+  headerTitle: "IQRA FM 95.0 | The station with a difference",
+  description: "Idhaa inayokupenda kwa ajili ya Allah.",
   language: "en-us",
   theme: "system", // system, dark or light
   siteUrl: "https://dr-bahaidar-blog.vercel.app", // your website URL
   siteLogo: "/logo.png",
   socialBanner: "/social-banner.png", // add social banner in the public folder
-  email: "drbahaidar@gmail.com",
+  email: "contact@iqrafm.com",
   github: "https://github.com/salfinity",
-  twitter: "https://twitter.com/dr_m_bahaidar",
-  tiktok: "https://www.tiktok.com/@doctor_bahaidar",
-  facebook: "https://www.facebook.com/doctorbahaidar/",
-  instagram: "https://www.instagram.com/doctorbahaidar/",
-  youtube: "https://www.youtube.com/channel/UCPWODIKQ8zmHvfwKSlgVChA",
+  twitter: "https://twitter.com/iqrafm?lang=en",
+  tiktok: "https://www.tiktok.com/@iqrafm.95.0?lang=en",
+  facebook: "https://www.facebook.com/IdhaaIliotofauti/",
+  instagram: "https://instagram.com/iqrafm?igshid=YmMyMTA2M2Y=",
+  youtube: "https://www.youtube.com/channel/UCM0OVySTrfaHVteZGlwJZSA",
   linkedin:
-    "https://www.linkedin.com/in/dr-mohamed-bahaidar-73527313a/?originalSubdomain=ke/",
+    "https://www.linkedin.com/in/iqra-fm-b099aa268/?originalSubdomain=ke",
   dribbble: "https://www.dribbble.com",
   locale: "en-US",
 };

@@ -4,15 +4,18 @@ import TransitionEffect from "/src/components/TransitionEffect";
 import { Toaster } from "react-hot-toast";
 
 const insights = [
-  "20+ Projects Completed",
-  "10+ Years of Management Experience",
-  "99% Client Satisfaction",
-  "Motovational Speaker",
-  "20K+ Instagram Subscribers",
-  "Authored 10 books social issues",
-  "covered over 2000 books that deal with Philosophy and psychology of life.📝",
-  "I have also resolved over 10000 cases of family and relationship conflicts.",
-  "Recipient of the Meena Award in Muscat, Oman.🏆",
+  "Holy Quran recitations",
+  "Quran Translations in English, Swahili, Somali, and Urdu",
+  "Talks by Prominent scholars from Kenya and abroad",
+  "Question and Answer sessions on religious matters",
+  "Panel discussions by prominent Muslim Ulaamas on Hadith and Fiqh",
+  "Enlightening program on Teaching yourself Arabic",
+  "Educative program in Kikuyu Language",
+  "Local and international news at frequent intervals daily",
+  "Talk Shows on Contemporary issues, political, cultural, social and economic issues",
+  "Health and educational programmes",
+  "Outside broadcasting services",
+  "Studio production services for recording programs or commercials/advertisements",
 ];
 
 export default function AboutLayout({ children }) {

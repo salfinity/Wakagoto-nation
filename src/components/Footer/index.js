@@ -17,16 +17,16 @@ const Footer = () => {
   console.log(errors);
 
   return (
-    <footer className="mt-16 rounded-2xl bg-slate-800 dark:bg-slate-400 m-2 sm:m-10 flex flex-col items-center text-light dark:text-dark">
+    <footer className="mt-16 rounded-2xl bg-dark dark:bg-accentDark/90 m-2 sm:m-10 flex flex-col items-center text-light dark:text-dark">
       <h3 className="mt-16 font-medium dark:font-bold text-center capitalize text-2xl sm:text-3xl lg:text-4xl px-4">
-        Engaging Narratives | Literary Insights | Strategic Wisdom
+        Tune in to IQRA FM 95.0 | The Station With a Difference | We Love you
+        for the sake of Allah.
       </h3>
       <p className="mt-5 px-4 text-center w-full sm:w-3/5 font-light dark:font-medium text-sm sm:text-base">
-        Subscribe for captivating blog posts, the latest literary releases, and
-        strategic insights. Join our thriving community of over +15000 members
-        to stay abreast of groundbreaking stories, new releases and updates in
-        the dynamic realms of business consulting, media management, and
-        literary exploration.
+        Subscribe now and become one of the 2 million Muslims who have embraced
+        IQRA FM's powerful voice and opinion. Join us on Twitter, Facebook,
+        LinkedIn, Instagram, and YouTube to stay abreast of the latest updates
+        and engage with our dynamic community.
       </p>
 
       <form
@@ -92,7 +92,7 @@ const Footer = () => {
         >
           <PiTiktokLogoLight
             size={30}
-            className="text-pink-400 dark:text-white hover:scale-125 transition-all ease duration-200 "
+            className="text-purple-900 dark:text-white hover:scale-125 transition-all ease duration-200 "
           />
         </a>
         <a
@@ -110,7 +110,7 @@ const Footer = () => {
 
       <div className="w-full z-10 mt-16 md:mt-24 relative font-medium border-t border-solid border-light py-6 px-8 flex  flex-col md:flex-row items-center justify-between">
         <span className="text-center">
-          &copy;2023 Dr.Mohamed Bahaidar. All rights reserved.
+          &copy;2023 IqraFM 95.0. All rights reserved.
         </span>
         <Link
           href="/sitemap.xml"
