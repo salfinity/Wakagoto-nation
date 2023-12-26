@@ -3,7 +3,7 @@
 import qs from "query-string";
 import { useRouter, useSearchParams } from "next/navigation";
 
-import { cn } from "/lib/utils";
+import { cn } from "/lib/utilstwo";
 import { Button } from "/src/components/ui/button";
 
 const Filter = ({ data, name, valueKey }) => {
