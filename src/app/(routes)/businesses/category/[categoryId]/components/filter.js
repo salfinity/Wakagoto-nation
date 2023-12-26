@@ -3,8 +3,8 @@
 import qs from "query-string";
 import { useRouter, useSearchParams } from "next/navigation";
 
-import { cn } from "@/lib/utils";
-import { Button } from "@/components/ui/button";
+import { cn } from "/lib/utils";
+import { Button } from "/src/components/ui/button";
 
 const Filter = ({ data, name, valueKey }) => {
   const router = useRouter();

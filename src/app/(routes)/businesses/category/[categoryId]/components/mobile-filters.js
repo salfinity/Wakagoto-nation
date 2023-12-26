@@ -4,11 +4,10 @@ import { useState } from "react";
 import { Plus, X } from "lucide-react";
 import { Dialog } from "@headlessui/react";
 
-import IconButton from "@/components/ui/icon-button";
-import { Color, Size } from "@/types";
+import IconButton from "/src/components/ui/icon-button";
 
 import Filter from "./filter";
-import { Button } from "@/components/ui/button";
+import { Button } from "/src/components/ui/button";
 
 const MobileFilters = ({ sizes, colors }) => {
   const [open, setOpen] = useState(false);
