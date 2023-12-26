@@ -24,23 +24,25 @@ const useCart = create(
     (set, get) => ({
       items: [],
       addItem: (data) => {
-        const currentItems = get().items;
-        const existingItem = currentItems.find((item) => item.id === data.id);
+        const existingItem = get().items.find((item) => item.id === data.id);
 
-        if (existingItem) {
-          // Item already in the cart
-          return;
+        if (!existingItem) {
+          set((prev) => ({ items: [...prev.items, data] }));
         }
-
-        set({ items: [...get().items, data] });
       },
       removeItem: (id) => {
-        set({ items: [...get().items.filter((item) => item.id !== id)] });
+        set((prev) => ({ items: prev.items.filter((item) => item.id !== id) }));
       },
       removeAll: () => set({ items: [] }),
     }),
     {
       name: "cart-storage",
+      // Improved error handling for local storage
+      onRehydrateStorage: (state) => {
+        if (!state) {
+          console.error("Error rehydrating cart state from storage.");
+        }
+      },
       storage: createJSONStorage(() => localStorage),
     }
   )
