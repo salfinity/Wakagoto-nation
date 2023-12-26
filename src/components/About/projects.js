@@ -13,7 +13,7 @@ export default function Projects() {
       <h2 className="mb-4 uppercase text-3xl tracking-[14px] text-black dark:text-white">
         My Profile
       </h2>
-      <span className="font-semibold text-lg sm:text-3xl md:text-4xl text-accent dark:text-accentDark">
+      <span className="font-semibold text-lg sm:text-3xl md:text-4xl text-slate-800 dark:text-slate-500">
         Have a look at it...
       </span>
       <div>

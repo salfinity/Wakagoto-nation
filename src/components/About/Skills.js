@@ -43,7 +43,7 @@ export default function Skills() {
       id="skills"
       className="flex flex-col max-w-6xl text-center  sm:mb-16"
     >
-      <span className="font-semibold text-lg sm:text-3xl md:text-4xl text-accent dark:text-accentDark">
+      <span className="font-semibold text-lg sm:text-3xl md:text-4xl text-slate-800 dark:text-slate-500">
         Here are my Skills...
       </span>
       <ul className="flex flex-wrap mt-4 justify-center gap-2 text-lg text-gray-800">

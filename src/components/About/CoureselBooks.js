@@ -28,7 +28,7 @@ const CoureselBooks = () => {
                 BOOKS
               </h2>
 
-              <span className="font-semibold text-base sm:text-3xl md:text-4xl text-accent dark:text-accentDark">
+              <span className="font-semibold text-base sm:text-3xl md:text-4xl text-slate-800 dark:text-slate-500">
                 This are the best selling books authored by Dr Mohamed Bahaidar
               </span>
             </div>

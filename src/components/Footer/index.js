@@ -17,7 +17,7 @@ const Footer = () => {
   console.log(errors);
 
   return (
-    <footer className="mt-16 rounded-2xl bg-dark dark:bg-accentDark/90 m-2 sm:m-10 flex flex-col items-center text-light dark:text-dark">
+    <footer className="mt-16 rounded-2xl bg-slate-800 dark:bg-slate-400 m-2 sm:m-10 flex flex-col items-center text-light dark:text-dark">
       <h3 className="mt-16 font-medium dark:font-bold text-center capitalize text-2xl sm:text-3xl lg:text-4xl px-4">
         Engaging Narratives | Literary Insights | Strategic Wisdom
       </h3>
@@ -92,7 +92,7 @@ const Footer = () => {
         >
           <PiTiktokLogoLight
             size={30}
-            className="text-purple-900 dark:text-white hover:scale-125 transition-all ease duration-200 "
+            className="text-pink-400 dark:text-white hover:scale-125 transition-all ease duration-200 "
           />
         </a>
         <a
