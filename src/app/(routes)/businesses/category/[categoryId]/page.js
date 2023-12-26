@@ -1,7 +1,7 @@
-import Container from "/components/ui/container";
-import Billboard from "/components/ui/billboard";
-import ProductCard from "/components/ui/product-card";
-import NoResults from "/components/ui/no-results";
+import Container from "/src/components/ui/container";
+import Billboard from "/src/components/ui/billboard";
+import ProductCard from "/src/components/ui/product-card";
+import NoResults from "/src/components/ui/no-results";
 
 import getProducts from "/actions/get-products";
 import getCategory from "/actions/get-category";

@@ -1,5 +1,5 @@
 import InsightRoll from "/src/components/About/InsightRoll";
-import Navbar from "/src/components/Navbar";
+import Navbar from "/src/components/navbar";
 
 export const metadata = {
   title: "Iqra biashara",
