@@ -36,7 +36,8 @@ export default function Contact() {
           loading="lazy"
         ></iframe>
       </div>
-      <div className="w-full md:w-3/5 flex flex-col items-start border-t border-neutral-600 justify-center px-5 xs:px-10 md:px-16 pb-8">
+      <br className="text-neutral-600 my-10 max-w-6xl" />
+      <div className="w-full md:w-3/5 flex flex-col items-start border-neutral-600 justify-center px-5 xs:px-10 md:px-16 pb-8">
         <ContactForm />
       </div>
     </>
