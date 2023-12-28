@@ -10,7 +10,7 @@ export default function Contact() {
   return (
     <motion.section
       id="contact"
-      className="mb-5 mt-0 sm:mb-8 w-[min(100%,38rem)] text-center   flex flex-col  max-w-6xl justify-center h-screen"
+      className="mb-5 mt-0 sm:mb-8 w-[min(100%,38rem)] text-center mx-auto  flex flex-col  max-w-6xl justify-center h-screen"
       initial={{
         opacity: 0,
       }}
