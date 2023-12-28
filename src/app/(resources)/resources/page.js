@@ -4,10 +4,12 @@ import TransitionEffect from "/src/components/TransitionEffect";
 import React from "react";
 import Items from "/src/components/resources/items";
 
-export const metadata = {
+{
+  /* export const metadata = {
   title: "Our Resources",
   description: "Here are some useful resources that we offer.",
-};
+}; */
+}
 
 export default function Books() {
   return (

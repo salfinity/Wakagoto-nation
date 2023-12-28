@@ -7,7 +7,7 @@ const siteMetadata = {
   language: "en-us",
   theme: "system", // system, dark or light
   siteUrl: "https://dr-bahaidar-blog.vercel.app", // your website URL
-  siteLogo: "/logo.png",
+  siteLogo: "/logo.jpeg",
   socialBanner: "/social-banner.png", // add social banner in the public folder
   email: "contact@iqrafm.com",
   github: "https://github.com/salfinity",
