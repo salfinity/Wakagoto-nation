@@ -11,7 +11,7 @@ export const metadata = {
 export default function Contact() {
   return (
     <>
-      <div className="max-w-6xl mt-24 grid grid-cols-1 md:grid-cols-3 ml-auto mx-auto justify-center text-teal-600">
+      <div className="max-w-6xl mt-24 grid grid-cols-1 md:grid-cols-3 border-b border-neutral-600 ml-auto mx-auto justify-center text-teal-600">
         <Image
           layout="fixed"
           width={300}

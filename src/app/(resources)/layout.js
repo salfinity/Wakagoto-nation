@@ -1,8 +1,8 @@
 import InsightRoll from "/src/components/About/InsightRoll";
 
 export const metadata = {
-  title: "My Books",
-  description: `Check out my latest books.`,
+  title: "Our Resources",
+  description: "Here are some useful resources that we offer.",
 };
 
 const insights = [
