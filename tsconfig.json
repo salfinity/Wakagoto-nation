@@ -47,7 +47,8 @@
     "src/app/profiles/schedule/DropdownMenu.js",
     "src/components/TypingAnimation.js",
     "pages/api/chat.js",
-    "src/components/Quotes/AiChatModal.js"
+    "src/components/Quotes/AiChatModal.js",
+    "src/app/adverts/unity/page.js"
   ],
   "exclude": ["node_modules"]
 }

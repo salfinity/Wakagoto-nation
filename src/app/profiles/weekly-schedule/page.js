@@ -8,10 +8,12 @@ import { scheduleData } from "/lib/data";
 import Link from "next/link";
 import { RiArrowGoBackFill } from "react-icons/ri";
 
-export const metadata = {
+{
+  /*export const metadata = {
   title: "Weekly Schedule | Iqra FM",
   description: "Here are some details about Our programmes on a weekly basis.",
-};
+};  */
+}
 
 const daysOfWeek = [
   "Monday",

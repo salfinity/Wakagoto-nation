@@ -4,10 +4,12 @@ import TransitionEffect from "/src/components/TransitionEffect";
 import React from "react";
 import ManagementCoverSection from "/src/components/About/ManagementCoverSection";
 
-export const metadata = {
+{
+  /* export const metadata = {
   title: "Team | Management",
   description: "this is the staff of iqra FM.",
-};
+}; */
+}
 
 export default function Books() {
   return (

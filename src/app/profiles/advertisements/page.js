@@ -10,6 +10,11 @@ import pembeltdImg from "public/projects/pembeltd.jpg";
 import AdvertItem from "/src/components/Adverts/AdvertItem";
 import { RiArrowGoBackFill } from "react-icons/ri";
 
+export const metadata = {
+  title: "Adverts | Iqra FM",
+  description: "Here are some details about Iqra FM.",
+};
+
 const AdvertisementsPage = () => {
   return (
     <div className="container mx-auto px-5 py-2 lg:px-32 lg:pt-24">
