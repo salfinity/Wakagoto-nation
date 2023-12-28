@@ -11,13 +11,13 @@ export const metadata = {
 export default function Contact() {
   return (
     <>
-      <div className="max-w-6xl mt-24 grid grid-cols-1 md:grid-cols-3 border-b mb-8 border-neutral-600 ml-auto mx-auto justify-center text-teal-600">
+      <div className="max-w-6xl mt-24 grid grid-cols-1 md:grid-cols-3 border-neutral-600 ml-auto mx-auto justify-center text-teal-600">
         <Image
           layout="fixed"
           width={300}
           height={300}
           objectFit="cover"
-          className="rounded-full w-32 ml-28 md:ml-0"
+          className="rounded-full border border-zinc-500 w-32 ml-28 md:ml-0"
           src={profileImg}
           alt=""
         />
@@ -37,7 +37,7 @@ export default function Contact() {
         ></iframe>
       </div>
 
-      <div className="w-full md:w-3/5 flex flex-col items-start justify-center px-5 xs:px-10 md:px-16 pb-8">
+      <div className="w-full md:w-3/5 flex flex-col items-start border-t border-neutral-600 justify-center px-5 xs:px-10 md:px-16 pb-8">
         <ContactForm />
       </div>
     </>

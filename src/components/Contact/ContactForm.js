@@ -25,11 +25,11 @@ export default function Contact() {
       }}
     >
       <h2 className="top-0 uppercase text-3xl tracking-[20px] text-black dark:text-white mb-8">
-        Contact me
+        Contact Us
       </h2>
 
       <p className="text-gray-700 -mt-6 dark:text-white/80">
-        Please contact me directly at{" "}
+        Please contact us directly at{" "}
         <a className="underline" href="mailto:drbahaidar@gmail.com">
           Info@drbahaidar.com
         </a>{" "}
