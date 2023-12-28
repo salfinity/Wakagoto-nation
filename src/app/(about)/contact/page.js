@@ -22,10 +22,10 @@ export default function Contact() {
           alt=""
         />
 
-        <p className="mt-4 max-w-sm md:max-w-md text-center leading-relaxed text-gray-500 dark:text-white  mr-auto">
-          At Masjid Al-Huda - South B MRQQ+WVR, Aoko Rd, Nairobi. | Phone•0727
-          444454|IqraFM Tel 3861555 | Fax 3861543 www.iqrafm.com | Copyright
-          &copy; 2023 All rights reserved.
+        <p className="mt-4 max-w-sm md:max-w-md text-center leading-relaxed text-neutral-500 dark:text-white  mr-auto">
+          Located At Masjid Al-Huda - South B MRQQ+WVR, Aoko Rd, Nairobi. |
+          Phone•0727 444454|IqraFM Tel 3861555 | Fax 3861543 www.iqrafm.com |
+          Copyright &copy; 2023 All rights reserved.
         </p>
 
         <iframe
@@ -36,8 +36,7 @@ export default function Contact() {
           loading="lazy"
         ></iframe>
       </div>
-      <br className="text-neutral-600 my-10 max-w-6xl" />
-      <div className="w-full md:w-3/5 flex flex-col items-start border-neutral-600 justify-center px-5 xs:px-10 md:px-16 pb-8">
+      <div className="w-full md:w-3/5 flex flex-col items-start border-t border-neutral-600 justify-center px-5 xs:px-10 md:px-16 pb-8">
         <ContactForm />
       </div>
     </>
