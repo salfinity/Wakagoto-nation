@@ -36,7 +36,10 @@ const SchedulePage = () => {
 
   return (
     <div className="container max-w-7xl mx-auto">
-      <h1 className="font-serif md:text-4xl text-2xl text-center mt-2 mb-8">
+      <h1
+        className="uppercase  text-3xl tracking-[20px] text-center mt-10 mx-auto font-semibold  
+      justify my-8 sm:text-3xl md:text-4xl text-accent dark:text-accentDark"
+      >
         <span
           className="underline decoration-6 
        decoration-orange-400 "
