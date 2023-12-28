@@ -23,16 +23,16 @@ const CartPage = () => {
   }
 
   return (
-    <div className="bg-white items-center dark:bg-slate-900 mx-auto max-w-6xl">
+    <div className=" items-center  px-10 w-full">
       <Container>
-        <div className="px-4 py-16 sm:px-6 lg:px-8">
+        <div className="py-16 px-6 md:px-8">
           <h1 className="text-3xl font-bold text-black dark:text-white">
             Shopping Cart
           </h1>
           <div className="mt-12 lg:grid lg:grid-cols-12 lg:items-start gap-x-12">
             <div className="lg:col-span-7">
               {cart.items.length === 0 && (
-                <p className="text-neutral-500 dark:text-neutral-400">
+                <p className="text-neutral-700 dark:text-neutral-300">
                   No items added to cart.
                 </p>
               )}

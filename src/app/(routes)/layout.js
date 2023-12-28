@@ -1,5 +1,6 @@
 import InsightRoll from "/src/components/About/InsightRoll";
 import Navbar from "/src/components/navbar";
+import FooterBiashara from "/src/components/footer-biashara";
 
 export const metadata = {
   title: "Iqra biashara",
@@ -25,8 +26,11 @@ export default function AboutLayout({ children }) {
   return (
     <main className="w-full flex flex-col items-center justify-between">
       <InsightRoll insights={insights} />
-      <Navbar />
-      {children}
+      <div className="w-full md:max-w-7xl border border-[#bfbfbf] dark:border-[#595959] bg-[#f2f2f2] dark:bg-[#1a1a1a] p-2 md:p-4 mt-4 rounded-xl">
+        <Navbar />
+        {children}
+        <FooterBiashara />
+      </div>
     </main>
   );
 }

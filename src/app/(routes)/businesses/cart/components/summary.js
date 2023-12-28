@@ -42,13 +42,13 @@ const Summary = () => {
   };
 
   return (
-    <div className="mt-16 rounded-lg bg-gray-50 dark:bg-slate-900 px-4 py-6 sm:p-6 lg:col-span-5 lg:mt-0 lg:p-8">
-      <h2 className="text-lg font-medium text-gray-900 dark:text-white">
+    <div className="mt-16 rounded-lg bg-[#ffd480] dark:bg-[#664400] px-4 py-6 sm:p-6 lg:col-span-5 lg:mt-0 lg:p-8">
+      <h2 className="text-xl md:text-2xl font-bold text-neutral-900 dark:text-white">
         Order summary
       </h2>
       <div className="mt-6 space-y-4">
-        <div className="flex items-center justify-between border-t border-gray-200 pt-4">
-          <div className="text-base font-medium text-gray-900 dark:text-white">
+        <div className="flex items-center justify-between border-t border-neutral-500 pt-4">
+          <div className="text-base font-bold text-neutral-900 dark:text-white">
             Order total
           </div>
           <Currency value={totalPrice} />
@@ -57,7 +57,7 @@ const Summary = () => {
       <Button
         onClick={onCheckout}
         disabled={items.length === 0}
-        className="w-full rounded-full gap-3 border-2 border-black text-black dark:text-white bg-slate-400 dark:bg-slate-700 mt-6"
+        className="w-full rounded-full gap-3 border-2 border-black text-black  bg-[#e69900] mt-6"
       >
         Card Checkout <FaMoneyCheck />
       </Button>

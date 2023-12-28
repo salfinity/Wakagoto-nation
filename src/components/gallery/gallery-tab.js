@@ -5,10 +5,10 @@ import { cn } from "/lib/utilstwo";
 
 const GalleryTab = ({ image }) => {
   return (
-    <Tab className="relative flex aspect-square cursor-pointer items-center justify-center rounded-2xl bg-white">
+    <Tab className="relative flex aspect-square cursor-pointer items-center justify-center rounded-lg md:rounded-xl bg-white">
       {({ selected }) => (
         <div>
-          <span className="absolute h-full w-full aspect-square inset-0 overflow-hidden rounded-md">
+          <span className="absolute bg-white h-full w-full aspect-square inset-0 overflow-hidden rounded-sm md:rounded-md">
             <NextImage
               fill
               src={image.url}
@@ -18,8 +18,8 @@ const GalleryTab = ({ image }) => {
           </span>
           <span
             className={cn(
-              "absolute inset-0 rounded-md ring-2 ring-offset-2",
-              selected ? "ring-black dark:ring-orange-500" : "ring-transparent"
+              "absolute inset-0 rounded-sm md:rounded-md ring-2 ring-offset-2",
+              selected ? "ring-black dark:ring-orange-300" : "ring-transparent"
             )}
           />
         </div>

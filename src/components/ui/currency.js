@@ -18,7 +18,11 @@ const Currency = ({ value = 0 }) => {
     return null;
   }
 
-  return <div className="font-semibold">{formatter.format(Number(value))}</div>;
+  return (
+    <div className="font-semibold mt-2 text-green-500 dark:text-green-300">
+      {formatter.format(Number(value))}
+    </div>
+  );
 };
 
 export default Currency;

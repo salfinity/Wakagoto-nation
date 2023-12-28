@@ -76,11 +76,13 @@ const MainNav = ({ data }) => {
   return (
     <Popover open={open} onOpenChange={setOpen}>
       <PopoverTrigger asChild>
-        <nav className="mx-6 text-xl flex items-center justify-center space-x-4 ml-auto mr-auto lg:space-x-6">
+        <nav className="text-xl flex items-center justify-between mx-auto">
           <button
             className={cn(
-              "text-xl flex font-medium transition-colors hover:text-gray-600 focus:outline-none",
-              open ? "text-gray-500" : "text-neutral-600"
+              "text-xl flex font-medium p-2 pl-3 pr-3 rounded-full bg-slate-100 dark:bg-neutral-800 border border-[#bfbfbf] transition-colors hover:text-neutral-600 focus:outline-none",
+              open
+                ? "text-neutral-800 dark:text-slate-100"
+                : "text-neutral-700 dark:text-slate-300"
             )}
             onClick={() => setOpen(!open)}
           >
@@ -91,7 +93,7 @@ const MainNav = ({ data }) => {
       </PopoverTrigger>
       {open && (
         <PopoverContent
-          className="w-[210px] p-5 rounded-lg bg-white dark:bg-slate-800"
+          className="w-[210px] cursor-pointer p-5 rounded-lg text-neutral-900 dark:text-white/80 bg-white dark:bg-zinc-800"
           style={{ maxHeight: "500px", overflowY: "auto" }}
         >
           <Command>
@@ -100,7 +102,7 @@ const MainNav = ({ data }) => {
                 <input
                   type="text"
                   placeholder="Search category..."
-                  className="w-[180px] p-2 border rounded fixed bg-neutral-300 dark:bg-slate-900 z-10"
+                  className="w-[180px] p-2 border rounded-md fixed bg-neutral-300 dark:bg-zinc-900 z-10"
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
                 />
@@ -115,12 +117,15 @@ const MainNav = ({ data }) => {
                   }}
                 >
                   {/* Scrollable category content here */}
-                  <CommandGroup heading="CATEGORIES">
+                  <CommandGroup
+                    className="text-base md:text-lg cursor-pointer"
+                    heading="CATEGORIES"
+                  >
                     {filteredRoutes.map((route) => (
                       <CommandItem
                         key={route.href}
                         onSelect={() => handleCategorySelect(route)}
-                        className="text-sm"
+                        className="text-sm md:text-base"
                       >
                         {route.label}
                         {selectedCategory?.href === route.href && (
@@ -135,7 +140,10 @@ const MainNav = ({ data }) => {
             <CommandSeparator />
             <CommandList>
               <CommandGroup>
-                <CommandItem onClick={() => setOpen(false)}>
+                <CommandItem
+                  className="text-sm md:text-base cursor-pointer"
+                  onClick={() => setOpen(false)}
+                >
                   <PlusCircle className="mr-2 h-5 w-5" />
                   Create Category
                 </CommandItem>

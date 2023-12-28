@@ -1,6 +1,6 @@
 "use client";
 
-import { ShoppingBag } from "lucide-react";
+import { FaShoppingCart } from "react-icons/fa";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 
@@ -22,12 +22,12 @@ const NavbarActions = () => {
   }
 
   return (
-    <div className="md:ml-auto flex items-center border-2 border-slate-500 rounded-full">
+    <div className="mr-4 flex items-center border-2 border-slate-500 rounded-full">
       <Button
         onClick={() => router.push("/businesses/cart")}
-        className="flex items-center rounded-full bg-orange-600 text-black dark:text-white  px-4 py-2"
+        className="flex items-center rounded-full bg-[#e69900] text-black dark:text-black px-4 py-2"
       >
-        <ShoppingBag size={20} />
+        <FaShoppingCart size={20} />
         <span className="ml-2 text-sm font-medium">{cart.items.length}</span>
       </Button>
     </div>

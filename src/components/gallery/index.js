@@ -18,7 +18,7 @@ const Gallery = ({ images = [] }) => {
       <Tab.Panels className="aspect-square w-full">
         {images.map((image) => (
           <Tab.Panel key={image.id}>
-            <div className="aspect-square relative h-full w-full sm:rounded-lg overflow-hidden">
+            <div className="aspect-square relative h-full w-full bg-neutral-200 dark:bg-[#737373]  sm:rounded-lg overflow-hidden">
               <NextImage
                 fill
                 src={image.url}

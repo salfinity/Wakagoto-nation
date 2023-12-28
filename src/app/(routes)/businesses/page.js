@@ -6,8 +6,6 @@ import Container from "/src/components/ui/container";
 
 import ModalProvider from "/providers/modal-provider";
 import ToastProvider from "/providers/toast-provider";
-import Link from "next/link";
-import { RiArrowGoBackFill } from "react-icons/ri";
 
 export const revalidate = 0;
 
@@ -27,22 +25,6 @@ const HomePage = async () => {
           </div>
         </div>
       </Container>
-      <div className="flex justify-center ml-auto">
-        <button
-          className=" border-4 mt-6 mb-10 md:mt-4 md:mb-12 
-     dark:border-white border-black rounded-full px-4 py-2"
-        >
-          <Link href="/">
-            <p
-              className="text-bold text-black dark:text-white cursor-pointer 
-          items-center flex pl-4 pr-4 gap-2"
-            >
-              <RiArrowGoBackFill className="text-bold" />
-              Back to Homepage
-            </p>
-          </Link>
-        </button>
-      </div>
     </div>
   );
 };

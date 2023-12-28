@@ -24,10 +24,10 @@ const Modal = ({ open, onClose, children }) => {
               leaveTo="opacity-0 scale-95"
             >
               <Dialog.Panel className="w-full max-w-3xl overflow-hidden rounded-xl text-left align-middle">
-                <div className="relative flex w-full items-center overflow-hidden bg-white dark:bg-slate-900 px-4 pb-8 pt-14 shadow-2xl dark:shadow-slate-500 sm:px-6 sm:pt-8 md:p-6 lg:p-8">
+                <div className="relative  border border-neutral-500 dark:border-white/50 flex w-full items-center overflow-hidden bg-white dark:bg-[#1a1a1a] px-4 pb-8 pt-14 shadow-2xl dark:shadow-slate-500 sm:px-6 sm:pt-8 md:p-6 lg:p-8">
                   <div className="absolute right-4 top-4">
                     <IconButton
-                      className="dark:bg-slate-700"
+                      className="text-neutral-600 dark:text-neutral-100 dark:bg-[#1a1a1a]"
                       onClick={onClose}
                       icon={<X size={15} />}
                     />
