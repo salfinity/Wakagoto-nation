@@ -8,6 +8,11 @@ import { IoIosCall } from "react-icons/io";
 import { FaInstagramSquare, FaWhatsappSquare } from "react-icons/fa";
 import Link from "next/link";
 
+export const metadata = {
+  title: "Unity Auto Garage",
+  description: "Here are some details about Unity auto garage.",
+};
+
 function UnityPage() {
   return (
     <div className="mx-auto max-w-6xl">

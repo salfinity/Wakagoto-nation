@@ -3,6 +3,11 @@ import Link from "next/link";
 import React from "react";
 import { RiArrowGoBackFill } from "react-icons/ri";
 
+export const metadata = {
+  title: "Sheikhs | Esteemed Scholars",
+  description: "Here are some Ulamaas who are Esteemed.",
+};
+
 function ScholarsPage() {
   const imageWidth = 220; // Set a reasonable width for your images
   const imageHeight = 200;

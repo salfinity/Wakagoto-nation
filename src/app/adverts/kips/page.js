@@ -8,6 +8,11 @@ import { IoIosCall } from "react-icons/io";
 import { FaInstagramSquare, FaWhatsappSquare } from "react-icons/fa";
 import Link from "next/link";
 
+export const metadata = {
+  title: "Kips Technical College",
+  description: "Here are some details about Kips.",
+};
+
 function KipsPage() {
   return (
     <div className="mx-auto max-w-6xl">

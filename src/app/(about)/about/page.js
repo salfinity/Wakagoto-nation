@@ -3,8 +3,8 @@ import Services from "/src/components/About/Services";
 import Link from "next/link";
 
 export const metadata = {
-  title: "About Me",
-  description: "Here are some details about my self.",
+  title: "About Us",
+  description: "Here are some details about Iqra FM.",
 };
 
 export default function About() {

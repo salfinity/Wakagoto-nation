@@ -4,8 +4,8 @@ import Image from "next/image";
 import profileImg from "/public/logo.jpeg";
 
 export const metadata = {
-  title: "Contact Me",
-  description: `Contact me through the form available on this page or email me at ${siteMetadata.email}`,
+  title: "Contact Us | Iqra FM",
+  description: `Contact us through the form available on this page or email us at ${siteMetadata.email}`,
 };
 
 export default function Contact() {

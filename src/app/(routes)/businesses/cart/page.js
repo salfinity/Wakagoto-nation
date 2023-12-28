@@ -8,6 +8,11 @@ import useCart from "/hooks/use-cart";
 import Summary from "./components/summary";
 import CartItem from "./components/cart-item";
 
+export const metadata = {
+  title: "Cart - Iqra Biashara E-Store",
+  description: "Here is the cashout page.",
+};
+
 export const revalidate = 0;
 
 const CartPage = () => {

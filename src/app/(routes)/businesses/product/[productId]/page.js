@@ -4,6 +4,11 @@ import Info from "/src/components/info";
 import getProduct from "/actions/get-product";
 import getProducts from "/actions/get-products";
 
+export const metadata = {
+  title: "Product Details",
+  description: "This is a detailed page of products.",
+};
+
 const ProductPage = async ({ params }) => {
   const product = await getProduct(params.productId);
   const suggestedProducts = await getProducts({

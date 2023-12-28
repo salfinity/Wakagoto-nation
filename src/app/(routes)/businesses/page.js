@@ -7,6 +7,12 @@ import Container from "/src/components/ui/container";
 import ModalProvider from "/providers/modal-provider";
 import ToastProvider from "/providers/toast-provider";
 
+export const metadata = {
+  title: "Iqra Biashara E-Store",
+  description:
+    "This an e-commerce platform that connects the muslim community.",
+};
+
 export const revalidate = 0;
 
 const HomePage = async () => {

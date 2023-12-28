@@ -11,6 +11,11 @@ import getColors from "/actions/get-colors";
 import Filter from "./components/filter";
 import MobileFilters from "./components/mobile-filters";
 
+export const metadata = {
+  title: "Category Details",
+  description: "Here are some categories of products in Iqra Biashara E-Store.",
+};
+
 export const revalidate = 0;
 
 const CategoryPage = async ({ params, searchParams }) => {
