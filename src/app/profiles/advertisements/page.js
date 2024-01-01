@@ -17,10 +17,10 @@ export const metadata = {
 const AdvertisementsPage = () => {
   return (
     <div className="container mx-auto px-5 py-2 max-w-6xl">
-      <h1 className="uppercase text-black dark:text-white mb-5 text-3xl tracking-[20px] text-center mt-10 mx-auto">
+      <h1 className="uppercase text-black dark:text-white mb-5 text-3xl tracking-[16px] text-center mt-10 mx-auto">
         <span
           className="underline decoration-6 
-     decoration-orange-400 "
+     decoration-orange-400 pb-2"
         >
           ADVERTISE
         </span>
