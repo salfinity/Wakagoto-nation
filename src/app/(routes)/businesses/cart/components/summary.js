@@ -41,6 +41,19 @@ const Summary = () => {
     window.open(response.data.url, "_blank");
   };
 
+  {
+    /* const onMpesaCheckout = async () => {
+    const response = await axios.post(
+      `${process.env.NEXT_PUBLIC_API_URL}/mpesacheckout`,
+      {
+        productIds: items.map((item) => item.id),
+      }
+    );
+
+    window.open(response.data.url, "_blank");
+  }; */
+  }
+
   return (
     <div className="mt-16 rounded-lg bg-[#ffd480] dark:bg-[#664400] px-4 py-6 sm:p-6 lg:col-span-5 lg:mt-0 lg:p-8">
       <h2 className="text-xl md:text-2xl font-bold text-neutral-900 dark:text-white">
@@ -62,6 +75,7 @@ const Summary = () => {
         Card Checkout <FaMoneyCheck />
       </Button>
       <Button
+        // onClick={onMpesaCheckout}
         disabled={items.length === 0}
         className="w-full rounded-full gap-3 border-2 border-black text-black dark:text-gray-600 bg-[#00e600] dark:bg-[#00e600] mt-6"
       >
