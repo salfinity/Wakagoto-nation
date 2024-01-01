@@ -16,8 +16,8 @@ export const metadata = {
 
 const AdvertisementsPage = () => {
   return (
-    <div className="container mx-auto px-5 py-2 lg:px-32 lg:pt-24">
-      <h1 className="font-serif text-black dark:text-white md:text-4xl text-2xl text-center mt-2 mb-5">
+    <div className="container mx-auto px-5 py-2 max-w-6xl">
+      <h1 className="uppercase text-black dark:text-white mb-5 text-3xl tracking-[20px] text-center mt-10 mx-auto">
         <span
           className="underline decoration-6 
      decoration-orange-400 "
@@ -26,7 +26,16 @@ const AdvertisementsPage = () => {
         </span>
         MENTS
       </h1>
-      <div className="max-w-[1240px] m-auto w-full py-16">
+      <span className="font-semibold flex text-center mx-auto gap-3 text-base sm:text-3xl md:text-4xl mb-4 text-accent dark:text-accentDark">
+        Call us at{" "}
+        <Link href="tel:+0727444454">
+          <p>
+            <span className="underline decoration-orange-500">0727 444454</span>
+          </p>
+        </Link>{" "}
+        to advertise your business here...
+      </span>
+      <div className="max-w-[1240px] m-auto w-full py-10">
         <div className="grid md:grid-cols-2 gap-8">
           <AdvertItem
             title="QYT Health Care"
