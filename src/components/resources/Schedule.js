@@ -1,9 +1,9 @@
 "use client";
 
 import React, { useState } from "react";
-import Navigation from "/src/profiles/weekly-schedule/Navigation";
-import ScheduleItem from "/src/profiles/weekly-schedule/ScheduleItem";
-import DropdownMenu from "/src/profiles/weekly-schedule/DropdownMenu";
+import Navigation from "/src/app/profiles/weekly-schedule/Navigation";
+import ScheduleItem from "/src/app/profiles/weekly-schedule/ScheduleItem";
+import DropdownMenu from "/src/app/profiles/weekly-schedule/DropdownMenu";
 import { scheduleData } from "/lib/data";
 import Link from "next/link";
 import { RiArrowGoBackFill } from "react-icons/ri";
