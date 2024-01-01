@@ -394,13 +394,6 @@ function HistoryPage() {
             </div>
           </div>
         </div>
-        <button className="border-4 dark:border-white border-black rounded-full px-4 py-2">
-          <Link href="/">
-            <p className="underline text-black dark:text-white cursor-pointer items-center flex pl-16 gap-2">
-              <RiArrowGoBackFill className="text-bold" /> Back
-            </p>
-          </Link>
-        </button>
       </div>
     </div>
   );
