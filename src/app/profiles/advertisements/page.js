@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import qytImg from "public/projects/qyt.jpg";
@@ -11,7 +10,7 @@ import AdvertItem from "/src/components/Adverts/AdvertItem";
 import { RiArrowGoBackFill } from "react-icons/ri";
 
 export const metadata = {
-  title: "Adverts | Iqra FM",
+  title: "Adverticements | Iqra FM",
   description: "Here are some details about Iqra FM.",
 };
 
@@ -79,13 +78,15 @@ const AdvertisementsPage = () => {
           />
         </div>
       </div>
-      <button className="border-4 dark:border-white border-black rounded-full px-4 py-2">
-        <Link href="/resources">
-          <span className="underline text-black dark:text-white cursor-pointer items-center flex pl-8 pr-8 gap-2">
-            <RiArrowGoBackFill className="text-bold" /> Back
-          </span>
-        </Link>
-      </button>
+      <div className="text-center justify-center mx-auto max-w-6xl">
+        <button className="border-4 dark:border-white border-black rounded-full px-4 py-2">
+          <Link href="/resources">
+            <span className="underline text-black dark:text-white cursor-pointer items-center flex pl-8 pr-8 gap-2">
+              <RiArrowGoBackFill className="text-bold" /> Back
+            </span>
+          </Link>
+        </button>
+      </div>
     </div>
   );
 };

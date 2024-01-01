@@ -35,14 +35,16 @@ function KipsPage() {
 
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 py-8">
         <div className="font-serif col-span-4">
-          <p>ABOUT US</p>
+          <p className="text-neutral-700 dark:text-neutral-300">ABOUT US</p>
           <h2>
             <span className="text-red-600 font-serif text-5xl font-extrabold pr-3">
               Company
             </span>
-            <span className="text-5xl font-extrabold">Description</span>
+            <span className="text-5xl text-neutral-700 dark:text-neutral-300 font-extrabold">
+              Description
+            </span>
           </h2>
-          <p>
+          <p className="text-neutral-700 dark:text-neutral-300">
             KIPS TECHNICAL COLLEGE is a premier Tertiary Institution established
             and mandated to operate as an Educational Training Institute by
             TIVET Authority under the Ministry of Higher Education, Science and
@@ -50,7 +52,7 @@ function KipsPage() {
             Certificates, Diplomas and higher Diplomas in various Courses.
           </p>
           <a href="https://www.kips.ac.ke/" target="_blank" rel="noreferrer">
-            <button className="border-4 dark:border-white border-black rounded-md px-8 py-2 mt-4 mr-8">
+            <button className="border-4 text-neutral-700 dark:text-neutral-300 dark:border-white border-black rounded-md px-8 py-2 mt-4 mr-8">
               Website
             </button>
           </a>
@@ -59,13 +61,13 @@ function KipsPage() {
             target="_blank"
             rel="noreferrer"
           >
-            <button className="border-4 dark:border-white border-black rounded-md px-8 py-2 mt-4 mr-8">
+            <button className="border-4 text-neutral-700 dark:text-neutral-300 dark:border-white border-black rounded-md px-8 py-2 mt-4 mr-8">
               Contacts
             </button>
           </a>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4">
-          <div className="p-2">
+          <div className="text-neutral-700 dark:text-neutral-300 p-2">
             <p className="text-center font-bold pb-2">Reach out</p>
             <div className="grid grid-cols-3 md:grid-cols-1">
               <p className="text-gray-600 py-2 flex items-center">
@@ -112,7 +114,7 @@ function KipsPage() {
           </div>
         </div>
         <button className="border-4 dark:border-white border-black rounded-full px-4 py-2">
-          <Link href="/adverts">
+          <Link href="/profiles/advertisements">
             <p className="underline text-black dark:text-white cursor-pointer items-center flex pl-16 gap-2">
               <RiArrowGoBackFill className="text-bold" /> Back
             </p>
