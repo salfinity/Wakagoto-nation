@@ -41,7 +41,7 @@ function RadioWindow() {
       >
         Live Radio
       </h2>
-      <div className=" md:h-[auto] h-[auto] relative container box-border items-center max-w-6xl md:max-w-6xl mx-auto overflow-clip cursor-pointer mb-16 ">
+      <div className="rounded-2xl md:h-[auto] h-[auto] relative container box-border items-center max-w-6xl md:max-w-6xl mx-auto overflow-clip cursor-pointer mb-16 ">
         <div className="absolute z-50 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
           <RadioButton />
         </div>
