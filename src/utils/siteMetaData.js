@@ -16,6 +16,7 @@ const siteMetadata = {
   facebook: "https://www.facebook.com/IdhaaIliotofauti/",
   instagram: "https://instagram.com/iqrafm?igshid=YmMyMTA2M2Y=",
   youtube: "https://www.youtube.com/channel/UCM0OVySTrfaHVteZGlwJZSA",
+  instagrambahaidar: "https://www.instagram.com/doctorbahaidar/",
   linkedin:
     "https://www.linkedin.com/in/iqra-fm-b099aa268/?originalSubdomain=ke",
   dribbble: "https://www.dribbble.com",

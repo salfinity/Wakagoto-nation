@@ -38,7 +38,7 @@ export async function generateMetadata({ params }) {
     openGraph: {
       title: blog.title,
       description: blog.description,
-      url: siteMetadata.twitter + blog.url,
+      url: siteMetadata.instagrambahaidar + blog.url,
       siteName: siteMetadata.title,
       locale: "en_US",
       type: "article",
