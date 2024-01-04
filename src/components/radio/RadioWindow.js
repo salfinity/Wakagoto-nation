@@ -22,6 +22,18 @@ function RadioWindow() {
       id: 2,
       img: "/radiowindow/meccaday.jpeg",
     },
+    {
+      id: 2,
+      img: "/radiowindow/aqsanight.jpeg",
+    },
+    {
+      id: 2,
+      img: "/radiowindow/meccanight.jpeg",
+    },
+    {
+      id: 2,
+      img: "/radiowindow/madinanight.jpeg",
+    },
   ];
 
   var settings = {
@@ -66,7 +78,7 @@ function RadioWindow() {
               width={imageWidth}
               height={imageHeight}
               objectFit="cover"
-              src="/radiowindow/aqsaday.jpeg"
+              src="/radiowindow/meccaday.jpeg"
               alt="image"
             />
             <div className="absolute inset-0 bg-black opacity-0 dark:opacity-30 z-50"></div>
@@ -105,7 +117,7 @@ function RadioWindow() {
               width={imageWidth}
               height={imageHeight}
               objectFit="cover"
-              src="/radiowindow/aqsanight.jpeg"
+              src="/radiowindow/meccanight.jpeg"
               alt="image"
             />
             <div className="absolute inset-0 bg-black opacity-40 dark:opacity-10 z-50"></div>
