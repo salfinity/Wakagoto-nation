@@ -2,7 +2,7 @@
 const siteMetadata = {
   title: "IQRA FM 95.0 | Idhaailiotofauti.",
   author: "Dr Mohamed Bahaidar",
-  headerTitle: "IQRA FM 95.0 | The station with a difference",
+  headerTitle: "IQRA FM 95.0 | The station with a difference.",
   description: "Idhaa inayokupenda kwa ajili ya Allah.",
   language: "en-us",
   theme: "system", // system, dark or light
