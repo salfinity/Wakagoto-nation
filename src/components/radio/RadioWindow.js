@@ -23,15 +23,15 @@ function RadioWindow() {
       img: "/radiowindow/meccaday.jpeg",
     },
     {
-      id: 2,
+      id: 3,
       img: "/radiowindow/aqsanight.jpeg",
     },
     {
-      id: 2,
+      id: 4,
       img: "/radiowindow/meccanight.jpeg",
     },
     {
-      id: 2,
+      id: 5,
       img: "/radiowindow/madinanight.jpeg",
     },
   ];
