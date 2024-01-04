@@ -7,7 +7,7 @@ const siteMetadata = {
   language: "en-us",
   theme: "system", // system, dark or light
   siteUrl: "https://iqrafm.com", // your website URL
-  siteLogo: "/logo.jpeg",
+  siteLogo: "/logo.png",
   socialBanner: "/social-banner.png", // add social banner in the public folder
   email: "contact@iqrafm.com",
   github: "https://github.com/salfinity",
