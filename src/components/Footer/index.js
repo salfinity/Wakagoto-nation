@@ -114,7 +114,7 @@ const Footer = () => {
         </span>
         <Link
           href="/sitemap.xml"
-          className="text-center underline my-4 md:my-0"
+          className="text-center hidden underline my-4 md:my-0"
         >
           sitemap.xml
         </Link>
