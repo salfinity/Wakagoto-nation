@@ -150,7 +150,7 @@ export default function ManagementCoverSection() {
         </span>{" "}
         THE TEAM{" "}
       </h1>
-      <div className="lg:gap-x-12 grid items-center justify-center gap-x-6 grid-cols-2 md:grid-cols-5 xl:grid-cols-5">
+      <div className="lg:gap-x-12 grid text-center justify-center gap-x-6 grid-cols-2 md:grid-cols-5 xl:grid-cols-5">
         <div className="mb-12 items-center text-center">
           <Image
             layout="fixed" // Use "fixed" layout to specify width and height
