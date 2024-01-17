@@ -238,6 +238,40 @@ export default function ManagementCoverSection() {
             Technical support officer
           </p>
         </div>
+        <div className="mb-12 items-center text-center">
+          <Image
+            layout="fixed" // Use "fixed" layout to specify width and height
+            width={imageWidth} // Set the width for the image
+            height={imageHeight} // Set the height for the image
+            objectFit="cover"
+            alt=""
+            src="/management/david.jpeg"
+            className="mx-auto mb-4 rounded-full shadow-lg dark:shadow-black/20"
+          />
+          <p className="mb-2 font-bold text-black dark:text-white">
+            David Okwemba
+          </p>
+          <p className="text-neutral-600 dark:text-neutral-300">
+            Tech support representative
+          </p>
+        </div>
+        <div className="mb-12 items-center text-center">
+          <Image
+            layout="fixed" // Use "fixed" layout to specify width and height
+            width={imageWidth} // Set the width for the image
+            height={imageHeight} // Set the height for the image
+            objectFit="cover"
+            alt=""
+            src="/management/moses.jpeg"
+            className="mx-auto mb-4 rounded-full shadow-lg dark:shadow-black/20"
+          />
+          <p className="mb-2 font-bold text-black dark:text-white">
+            Moses Ngati Mwololo
+          </p>
+          <p className="text-neutral-600 dark:text-neutral-300">
+            Tech support representative
+          </p>
+        </div>
         {/* ... Repeat this structure for other team members */}
       </div>
       <TeamPage />
