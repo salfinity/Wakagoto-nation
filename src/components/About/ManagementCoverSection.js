@@ -238,7 +238,7 @@ export default function ManagementCoverSection() {
             Technical support officer
           </p>
         </div>
-        <div className="mx-auto items-center">
+        <div className="mx-auto">
           <div className="mb-12 items-center text-center">
             <Image
               layout="fixed" // Use "fixed" layout to specify width and height
