@@ -42,16 +42,16 @@ const Summary = () => {
   };
 
   {
-    /* const onMpesaCheckout = async () => {
-    const response = await axios.post(
-      `${process.env.NEXT_PUBLIC_API_URL}/mpesacheckout`,
-      {
-        productIds: items.map((item) => item.id),
-      }
-    );
+    const onMpesaCheckout = async () => {
+      const response = await axios.post(
+        `${process.env.NEXT_PUBLIC_API_URL}/mpesacheckout`,
+        {
+          productIds: items.map((item) => item.id),
+        }
+      );
 
-    window.open(response.data.url, "_blank");
-  }; */
+      window.open(response.data.url, "_blank");
+    };
   }
 
   return (
@@ -75,7 +75,7 @@ const Summary = () => {
         Card Checkout <FaMoneyCheck />
       </Button>
       <Button
-        // onClick={onMpesaCheckout}
+        onClick={onMpesaCheckout}
         disabled={items.length === 0}
         className="w-full rounded-full gap-3 border-2 border-black text-black dark:text-gray-600 bg-[#00e600] dark:bg-[#00e600] mt-6"
       >
