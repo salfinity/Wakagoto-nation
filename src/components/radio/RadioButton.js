@@ -6,7 +6,7 @@ import { FaRegStopCircle } from "react-icons/fa";
 import TimeComponent from "./TimeComponent";
 
 function RadioButton() {
-  const audioStreamUrl = "https://s42.myradiostream.com:34890///listen.mp3";
+  const audioStreamUrl = "https://servidor25-2.brlogic.com:7002/live";
 
   const [isPlaying, setIsPlaying] = useState(false);
   const audioRef = useRef(null);
