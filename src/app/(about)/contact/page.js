@@ -1,7 +1,7 @@
 import ContactForm from "/src/components/Contact/ContactForm";
 import siteMetadata from "/src/utils/siteMetaData";
 import Image from "next/image";
-import profileImg from "/public/logo.jpeg";
+import profileImg from "/public/logo.jpg";
 
 export const metadata = {
   title: "Contact Us | Iqra FM",
@@ -23,14 +23,14 @@ export default function Contact() {
         />
 
         <p className="mt-4 max-w-sm md:max-w-md text-center leading-relaxed text-neutral-500 dark:text-white  mr-auto">
-          Located At Masjid Al-Huda - South B MRQQ+WVR, Aoko Rd, Nairobi. |
-          Phone•0727 444454|IqraFM Tel 3861555 | Fax 3861543 www.iqrafm.com |
-          Copyright &copy; 2023 All rights reserved.
+          Located Behind Nyawira centre - Next to panesic hotel, Embu. |
+          Phone•0727 444454| Wakagoto Nation Tel 3861555 | Fax 3861543
+          www.wakagotonation.com | Copyright &copy; 2025 All rights reserved.
         </p>
 
         <iframe
           className="items-center mt-4 md:mt-0 ml-14 md:ml-auto"
-          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15955.10123905002!2d36.839656!3d-1.3101315!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f11a778e3c841%3A0xcb7b083704c07fc7!2sMasjid%20Al-Huda%20-%20South%20B!5e0!3m2!1sen!2ske!4v1699994265643!5m2!1sen!2ske"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.6422800275354!2d37.447463909795204!3d-0.5382310352622189!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x18262f00554ce53d%3A0xebe3ce67ed97091f!2sWakagoto%20Foundation!5e0!3m2!1sen!2ske!4v1753941090195!5m2!1sen!2ske"
           width="250"
           height="150"
           loading="lazy"

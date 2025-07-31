@@ -31,7 +31,7 @@ export default function Contact() {
       <p className="text-gray-700 -mt-6 dark:text-white/80">
         Please contact us directly at{" "}
         <a className="underline" href="mailto:drbahaidar@gmail.com">
-          Info@drbahaidar.com
+          Info@wakagotonation.com
         </a>{" "}
         or through this form.
       </p>

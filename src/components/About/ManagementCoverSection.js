@@ -4,10 +4,10 @@ import Image from "next/image";
 import React from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { BsArrowRight, BsLinkedin } from "react-icons/bs";
+import { BsArrowRight, BsTwitterX } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
-import { FaInstagramSquare, FaTiktok, FaYoutube } from "react-icons/fa";
-import bahaidarImg from "/public/management/bahaidar.jpeg";
+import { FaInstagram, FaTiktok, FaFacebookF } from "react-icons/fa";
+import javaImg from "/public/management/java.jpg";
 import TeamPage from "./TeamPage";
 import { Cursor } from "react-simple-typewriter";
 import BackgroundCircles from "./BackgroundCircles";
@@ -33,7 +33,7 @@ export default function ManagementCoverSection() {
               }}
             >
               <Image
-                src={bahaidarImg}
+                src={javaImg}
                 alt="Bahaidar portrait"
                 width="250"
                 height="250"
@@ -50,7 +50,7 @@ export default function ManagementCoverSection() {
           animate={{ opacity: 1, y: 0 }}
         >
           <span className="underline-none text-black dark:text-white">
-            Dr.Mohamed Bahaidar
+            Kenjava Wakagoto Mwaniki
           </span>
           <Cursor cursorColor="#000000" />
         </motion.h2>
@@ -62,13 +62,14 @@ export default function ManagementCoverSection() {
         >
           <span className="underline-none" style={{ letterSpacing: "0.3em" }}>
             <a
-              href="https://iqrafm.com"
+              href="https://wakagotofoundation.com"
               target="_blank"
               rel="noopener noreferrer"
             >
-              CEO IQRAFM{" "}
+              Mentor | Philanthropist | Construction & Manufacturing Enthusiast
+              Investor | CEO @ WAKAGOTO FOUNDATION{" "}
             </a>
-            | AUTHOR & SCHOLAR | BUSINESS CONSULTANT | MOTIVATIONAL SPEAKER
+            | Eagle mabati | avocad ltd | BUSINESSMAN | ENTERPRENEUR
           </span>
           <Cursor cursorColor="#000000" />
         </motion.h3>
@@ -82,7 +83,7 @@ export default function ManagementCoverSection() {
           }}
         >
           <Link
-            href="https://wa.me/254740049095"
+            href="https://wa.me/254712345678"
             target="_blank"
             className="group bg-slate-400 dark:bg-slate-600 text-black dark:text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition z-10"
             onClick={() => {
@@ -106,31 +107,31 @@ export default function ManagementCoverSection() {
           <motion.div className="flex sm:flex-col md:flex-row gap-4">
             <a
               className="bg-slate-200 p-4 text-gray-700 hover:text-gray-950 flex items-center gap-4 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60 z-10"
-              href="https://ke.linkedin.com/in/dr-mohamed-bahaidar-73527313a/"
+              href="https://x.com/WakagotoK/"
               target="_blank"
             >
-              <BsLinkedin />
+              <BsTwitterX />
             </a>
 
             <a
               className="bg-slate-200 p-4 text-gray-700 flex items-center gap-4 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60 z-10"
-              href="https://www.instagram.com/doctorbahaidar/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA=="
+              href="https://www.instagram.com/kenjavawakagoto?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
               target="_blank"
             >
-              <FaInstagramSquare />
+              <FaInstagram />
             </a>
 
             <a
               className="bg-slate-200 p-4 text-gray-700 flex items-center gap-4 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60 z-10"
-              href="https://www.youtube.com/@dr.mbahaidar2308"
+              href="https://www.youtube.com/watch?v=tx3oYsoEZR0"
               target="_blank"
             >
-              <FaYoutube />
+              <FaFacebookF />
             </a>
 
             <a
               className="bg-slate-200 p-4 text-gray-700 flex items-center gap-4 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60 z-10"
-              href="https://www.tiktok.com/@doctor_bahaidar"
+              href="https://www.tiktok.com/@wakagoto1"
               target="_blank"
             >
               <FaTiktok />
@@ -138,144 +139,8 @@ export default function ManagementCoverSection() {
           </motion.div>
         </motion.div>
       </section>
-      <h1
-        className="uppercase  text-3xl tracking-[15px] text-center mt-10 mx-auto font-semibold  
-      justify my-8 sm:text-3xl md:text-4xl text-accent dark:text-accentDark"
-      >
-        <span
-          className="underline decoration-6 
-          decoration-orange-400"
-        >
-          MEET
-        </span>{" "}
-        THE TEAM{" "}
-      </h1>
-      <div className="lg:gap-x-12 grid text-center mx-auto justify-center gap-x-6 grid-cols-2 md:grid-cols-5 xl:grid-cols-5">
-        <div className="mb-12 items-center text-center">
-          <Image
-            layout="fixed" // Use "fixed" layout to specify width and height
-            width={imageWidth} // Set the width for the image
-            height={imageHeight} // Set the height for the image
-            objectFit="cover"
-            alt=""
-            src="/management/mosque.jpg"
-            className="mx-auto mb-4 rounded-full shadow-lg dark:shadow-black/20"
-          />
-          <p className="mb-2 font-bold text-black dark:text-white">
-            Sofia Ibrahim
-          </p>
-          <p className="text-neutral-600 dark:text-neutral-300">
-            Head of Productions
-          </p>
-        </div>
-        <div className="mb-12 items-center text-center">
-          <Image
-            layout="fixed" // Use "fixed" layout to specify width and height
-            width={imageWidth} // Set the width for the image
-            height={imageHeight} // Set the height for the image
-            objectFit="cover"
-            alt=""
-            src="/management/mosque.jpg"
-            className="mx-auto mb-4 rounded-full shadow-lg dark:shadow-black/20"
-          />
-          <p className="mb-2 font-bold text-black dark:text-white">
-            Khamis Abdallah
-          </p>
-          <p className="text-neutral-600 dark:text-neutral-300">
-            Head of staff
-          </p>
-        </div>
 
-        <div className="mb-12 items-center text-center">
-          <Image
-            layout="fixed" // Use "fixed" layout to specify width and height
-            width={imageWidth} // Set the width for the image
-            height={imageHeight} // Set the height for the image
-            objectFit="cover"
-            alt=""
-            src="/management/ramla.jpeg"
-            className="mx-auto mb-4 rounded-full shadow-lg dark:shadow-black/20"
-          />
-          <p className="mb-2 font-bold text-black dark:text-white">
-            Ramla Abdi
-          </p>
-          <p className="text-neutral-600 dark:text-neutral-300">
-            Head of admin
-          </p>
-        </div>
-        <div className="mb-12 items-center text-center">
-          <Image
-            layout="fixed" // Use "fixed" layout to specify width and height
-            width={imageWidth} // Set the width for the image
-            height={imageHeight} // Set the height for the image
-            objectFit="cover"
-            alt=""
-            src="/team/galoro.jpeg"
-            className="mx-auto mb-4 rounded-full shadow-lg dark:shadow-black/20"
-          />
-          <p className="mb-2 font-bold text-black dark:text-white">
-            Samira Galoro
-          </p>
-          <p className="text-neutral-600 dark:text-neutral-300">
-            Technical support officer
-          </p>
-        </div>
-
-        <div className="mb-12 items-center text-center">
-          <Image
-            layout="fixed" // Use "fixed" layout to specify width and height
-            width={imageWidth} // Set the width for the image
-            height={imageHeight} // Set the height for the image
-            objectFit="cover"
-            alt=""
-            src="/management/moha.jpeg"
-            className="mx-auto mb-4 rounded-full shadow-lg dark:shadow-black/20"
-          />
-          <p className="mb-2 font-bold text-black dark:text-white">
-            Mohammed Rajab
-          </p>
-          <p className="text-neutral-600 dark:text-neutral-300">
-            Technical support officer
-          </p>
-        </div>
-
-        <div className="mb-12 items-center text-center">
-          <Image
-            layout="fixed" // Use "fixed" layout to specify width and height
-            width={imageWidth} // Set the width for the image
-            height={imageHeight} // Set the height for the image
-            objectFit="cover"
-            alt=""
-            src="/management/david.jpeg"
-            className="mx-auto mb-4 rounded-full shadow-lg dark:shadow-black/20"
-          />
-          <p className="mb-2 font-bold text-black dark:text-white">
-            David Okwemba
-          </p>
-          <p className="text-neutral-600 dark:text-neutral-300">
-            Tech support representative
-          </p>
-        </div>
-        <div className="mb-12 items-center text-center">
-          <Image
-            layout="fixed" // Use "fixed" layout to specify width and height
-            width={imageWidth} // Set the width for the image
-            height={imageHeight} // Set the height for the image
-            objectFit="cover"
-            alt=""
-            src="/management/moses.jpeg"
-            className="mx-auto mb-4 rounded-full shadow-lg dark:shadow-black/20"
-          />
-          <p className="mb-2 font-bold text-black dark:text-white">
-            Moses Ngati Mwololo
-          </p>
-          <p className="text-neutral-600 dark:text-neutral-300">
-            Tech support representative
-          </p>
-        </div>
-
-        {/* ... Repeat this structure for other team members */}
-      </div>
+      {/* ... Repeat this structure for other team members */}
       <TeamPage />
     </>
   );

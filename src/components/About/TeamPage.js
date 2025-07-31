@@ -18,9 +18,9 @@ function TeamPage() {
             className="underline decoration-6 
           decoration-orange-400"
           >
-            ESTEEMED
+            BOARD
           </span>{" "}
-          PRESENTERS{" "}
+          OF MANAGEMENT{" "}
         </h1>
 
         <div className="lg:gap-xl-12 grid gap-x-6 md:grid-cols-3 xl:grid-cols-4">
@@ -30,14 +30,14 @@ function TeamPage() {
               width={imageWidth}
               height={imageHeight}
               objectFit="cover"
-              src="/team/madina.jpg"
+              src="/logo.jpg"
               className="mx-auto mb-4 rounded-full shadow-lg dark:shadow-black/20 h-56 md:max-width:100px"
               alt=""
             />
             <p className="mb-2 font-bold text-black dark:text-white">
-              Madina Idd Juma
+              Dr. Right Left
             </p>
-            <p className="text-neutral-500 dark:text-neutral-300">Presenter</p>
+            <p className="text-neutral-500 dark:text-neutral-300">Manager</p>
           </div>
 
           <div className="mb-12">
@@ -46,14 +46,14 @@ function TeamPage() {
               width={imageWidth}
               height={imageHeight}
               objectFit="cover"
-              src="/team/nur.png"
+              src="/logo.jpg"
               className="mx-auto mb-4 rounded-full shadow-lg dark:shadow-black/20 h-56 md:max-width:100px"
               alt=""
             />
             <p className="mb-2 font-bold text-black dark:text-white">
-              Nur Saiid Thwalib
+              Dr. Jack Right
             </p>
-            <p className="text-neutral-500 dark:text-neutral-300">Presenter</p>
+            <p className="text-neutral-500 dark:text-neutral-300">Director</p>
           </div>
 
           <div className="mb-12">
@@ -62,78 +62,48 @@ function TeamPage() {
               width={imageWidth}
               height={imageHeight}
               objectFit="cover"
-              src="/team/galoro.jpeg"
+              src="/logo.jpg"
               className="mx-auto mb-4 rounded-full shadow-lg dark:shadow-black/20 h-56 md:max-width:100px"
               alt=""
             />
             <p className="mb-2 font-bold text-black dark:text-white">
-              Samira Galoro
-            </p>
-            <p className="text-neutral-500 dark:text-neutral-300">Presenter</p>
-          </div>
-          <div className="mb-12">
-            <Image
-              layout="fixed"
-              width={imageWidth}
-              height={imageHeight}
-              objectFit="cover"
-              src="/team/fahamu.jpg"
-              className="mx-auto mb-4 rounded-full shadow-lg dark:shadow-black/20 h-56 md:max-width:100px"
-              alt=""
-            />
-            <p className="mb-2 font-bold text-black dark:text-white">
-              Daktari Fahamu Kazungu
-            </p>
-            <p className="text-neutral-500 dark:text-neutral-300">Presenter</p>
-          </div>
-
-          <div className="mb-12">
-            <Image
-              layout="fixed"
-              width={imageWidth}
-              height={imageHeight}
-              objectFit="cover"
-              src="/team/shuaib.jpeg"
-              className="mx-auto mb-4 rounded-full shadow-lg dark:shadow-black/20 h-56 md:max-width:100px"
-              alt=""
-            />
-            <p className="mb-2 font-bold text-black dark:text-white">
-              Shuaib Ali
-            </p>
-            <p className="text-neutral-500 dark:text-neutral-300">Presenter</p>
-          </div>
-
-          <div className="mb-12">
-            <Image
-              layout="fixed"
-              width={imageWidth}
-              height={imageHeight}
-              objectFit="cover"
-              src="/team/ramlah.png"
-              className="mx-auto mb-4 rounded-full shadow-lg dark:shadow-black/20 h-56 md:max-width:100px"
-              alt=""
-            />
-            <p className="mb-2 font-bold text-black dark:text-white">
-              Ramla Abdi
-            </p>
-            <p className="text-neutral-500 dark:text-neutral-300">Presenter</p>
-          </div>
-
-          <div className="mb-12">
-            <Image
-              layout="fixed"
-              width={imageWidth}
-              height={imageHeight}
-              objectFit="cover"
-              src="/team/salim.jpg"
-              className="mx-auto mb-4 rounded-full shadow-lg dark:shadow-black/20 h-56 md:max-width:100px"
-              alt=""
-            />
-            <p className="mb-2 font-bold text-black dark:text-white">
-              Ali Salim
+              Dr. Sam Left
             </p>
             <p className="text-neutral-500 dark:text-neutral-300">
-              Sports Presenter
+              Managing director
+            </p>
+          </div>
+          <div className="mb-12">
+            <Image
+              layout="fixed"
+              width={imageWidth}
+              height={imageHeight}
+              objectFit="cover"
+              src="/logo.jpg"
+              className="mx-auto mb-4 rounded-full shadow-lg dark:shadow-black/20 h-56 md:max-width:100px"
+              alt=""
+            />
+            <p className="mb-2 font-bold text-black dark:text-white">
+              Daktari Kazungu
+            </p>
+            <p className="text-neutral-500 dark:text-neutral-300">Supervisor</p>
+          </div>
+
+          <div className="mb-12">
+            <Image
+              layout="fixed"
+              width={imageWidth}
+              height={imageHeight}
+              objectFit="cover"
+              src="/logo.jpg"
+              className="mx-auto mb-4 rounded-full shadow-lg dark:shadow-black/20 h-56 md:max-width:100px"
+              alt=""
+            />
+            <p className="mb-2 font-bold text-black dark:text-white">
+              Pro Safe
+            </p>
+            <p className="text-neutral-500 dark:text-neutral-300">
+              Head of Security
             </p>
           </div>
 
@@ -143,33 +113,55 @@ function TeamPage() {
               width={imageWidth}
               height={imageHeight}
               objectFit="cover"
-              src="/team/abubakar.png"
+              src="/logo.jpg"
               className="mx-auto mb-4 rounded-full shadow-lg dark:shadow-black/20 h-56 md:max-width:100px"
               alt=""
             />
             <p className="mb-2 font-bold text-black dark:text-white">
-              Abubakar Juma
+              Samuel Smith
+            </p>
+            <p className="text-neutral-500 dark:text-neutral-300">
+              Photographer
+            </p>
+          </div>
+
+          <div className="mb-12">
+            <Image
+              layout="fixed"
+              width={imageWidth}
+              height={imageHeight}
+              objectFit="cover"
+              src="/logo.jpg"
+              className="mx-auto mb-4 rounded-full shadow-lg dark:shadow-black/20 h-56 md:max-width:100px"
+              alt=""
+            />
+            <p className="mb-2 font-bold text-black dark:text-white">
+              Donn Boss
+            </p>
+            <p className="text-neutral-500 dark:text-neutral-300">
+              Field engineer
+            </p>
+          </div>
+
+          <div className="mb-12">
+            <Image
+              layout="fixed"
+              width={imageWidth}
+              height={imageHeight}
+              objectFit="cover"
+              src="/logo.jpg"
+              className="mx-auto mb-4 rounded-full shadow-lg dark:shadow-black/20 h-56 md:max-width:100px"
+              alt=""
+            />
+            <p className="mb-2 font-bold text-black dark:text-white">
+              John Doe
             </p>
             <p className="text-neutral-500 dark:text-neutral-300">
               {" "}
-              Business Presenter
+              Marketing Director
             </p>
           </div>
         </div>
-        <button
-          className=" bg-white dark:bg-slate-900 h-[3rem] bg-opacity-80 backdrop-blur-[0.5rem] 
-                        border border-white border-opacity-40 shadow-slate-900 dark:shadow-slate-800 
-                        shadow-lg rounded-full justify-center hover:scale-[1.15] active:scale-105 
-                        transition-all "
-          style={{ animation: "none" }}
-        >
-          <Link href="/profiles/esteemed-sheikhs">
-            <p className="text-black dark:text-white px-6 gap-3 flex items-center">
-              Our Esteemed Sheikhs
-              <AiFillProfile size={30} />
-            </p>
-          </Link>
-        </button>
       </section>
     </div>
   );

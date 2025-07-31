@@ -17,18 +17,18 @@ const fadeInAnimationVariants = {
 };
 
 const SkillList = [
-  "commercials/advertisements",
-  "Holy Quran recitations",
-  "Quran Translations in English, Swahili, Somali, and Urdu",
-  "Talks by Prominent scholars from Kenya and abroad",
-  "Religious Question and Answer sessions",
-  "Panel discussions by on Hadith and Fiqh",
-  "Arabic lessons",
-  "Educative program in Kikuyu Language",
-  "Local and international news",
-  "Talk Shows",
-  "Health and educational programmes",
-  "Outside broadcasting services",
+  "Youth mentorship & leadership programs",
+  "Women empowerment and entrepreneurship training",
+  "Environmental clean-ups & tree planting",
+  "Community health outreach & awareness",
+  "Digital literacy & computer training",
+  "Life skills & financial literacy workshops",
+  "Art, music & storytelling festivals",
+  "Vocational training for unemployed youth",
+  "Community townhalls & civic education",
+  "Sports & talent development initiatives",
+  "Small business incubation & support",
+  "Local events documentation & media services",
 ];
 
 export default function Skills() {
@@ -44,7 +44,7 @@ export default function Skills() {
       <ul className="flex flex-wrap mt-4 justify-center gap-2 text-lg text-gray-800">
         {skillsData.map((skill, index) => (
           <motion.li
-            className="bg-white borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:text-white/80"
+            className="bg-gray/10 borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:text-white/80"
             key={index}
             variants={fadeInAnimationVariants}
             initial="initial"

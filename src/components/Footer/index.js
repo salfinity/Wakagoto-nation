@@ -3,6 +3,7 @@ import React from "react";
 import { useForm } from "react-hook-form";
 import { LinkedinIcon, TwitterIcon } from "../Icons";
 import { FaFacebook, FaYoutube, FaInstagram } from "react-icons/fa";
+import { BsTwitterX } from "react-icons/bs";
 import { PiTiktokLogoLight } from "react-icons/pi";
 import Link from "next/link";
 import siteMetadata from "../../utils/siteMetaData";
@@ -17,16 +18,16 @@ const Footer = () => {
   console.log(errors);
 
   return (
-    <footer className="mt-16 rounded-2xl bg-dark dark:bg-accentDark/90 m-2 sm:m-10 flex flex-col items-center text-light dark:text-dark">
-      <h3 className="mt-16 font-medium dark:font-bold text-center capitalize text-2xl sm:text-3xl lg:text-4xl px-4">
-        Tune in to IQRA FM 95.0 | The Station With a Difference | We Love you
-        for the sake of Allah.
+    <footer className="mt-16 rounded-2xl bg-[#264d00] dark:bg-[#ff9900]/90 m-2 sm:m-10 flex flex-col items-center text-light dark:text-dark">
+      <h3 className="mt-16 font-bold text-center capitalize text-2xl sm:text-3xl lg:text-4xl px-4">
+        WAKAGOTO NATION | KAVA MWENA WA NGAI | Changing lives, Impacting
+        generations.
       </h3>
       <p className="mt-5 px-4 text-center w-full sm:w-3/5 font-light dark:font-medium text-sm sm:text-base">
-        Subscribe now and become one of the 2 million Muslims who have embraced
-        IQRA FM's powerful voice and opinion. Join us on Twitter, Facebook,
-        LinkedIn, Instagram, and YouTube to stay abreast of the latest updates
-        and engage with our dynamic community.
+        Subscribe now and become one of the 4 million Kenyans who have embraced
+        WAKAGOTO NATION powerful voice and opinion. Join us on Twitter,
+        Facebook, LinkedIn, Instagram, and YouTube to stay abreast of the latest
+        updates and engage with our dynamic community.
       </p>
 
       <form
@@ -71,7 +72,10 @@ const Footer = () => {
           aria-label="Reach out to me via Twitter"
           target="_blank"
         >
-          <TwitterIcon className="hover:scale-125 transition-all ease duration-200" />
+          <BsTwitterX
+            size={25}
+            className="text-black dark:text-white hover:scale-125 transition-all ease duration-200"
+          />
         </a>
         <a
           href={siteMetadata.youtube}
@@ -110,7 +114,7 @@ const Footer = () => {
 
       <div className="w-full z-10 mt-16 md:mt-24 relative font-medium border-t border-solid border-light py-6 px-8 flex  flex-col md:flex-row items-center justify-between">
         <span className="text-center">
-          &copy;2023 IqraFM 95.0. All rights reserved.
+          &copy;2025 Wakagoto Foundation. All rights reserved.
         </span>
         <Link
           href="/sitemap.xml"
@@ -119,7 +123,7 @@ const Footer = () => {
           sitemap.xml
         </Link>
         <div className="text-center">
-          Made with &hearts; by{" "}
+          Developed by{" "}
           <a
             href="https://salfinity.vercel.app/"
             className="underline"

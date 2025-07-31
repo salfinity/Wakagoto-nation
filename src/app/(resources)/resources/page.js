@@ -19,7 +19,7 @@ export default function Books() {
         className="uppercase  text-3xl tracking-[20px] text-center mt-10 mx-auto font-semibold  
       justify my-8 sm:text-3xl md:text-4xl text-accent dark:text-accentDark"
       >
-        Resources
+        opportunities
       </h2>
       <Items />
     </>

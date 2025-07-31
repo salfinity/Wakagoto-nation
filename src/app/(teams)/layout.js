@@ -6,18 +6,18 @@ export const metadata = {
 };
 
 const insights = [
-  "Holy Quran recitations",
-  "Quran Translations in English, Swahili, Somali, and Urdu",
-  "Talks by Prominent scholars from Kenya and abroad",
-  "Question and Answer sessions on religious matters",
-  "Panel discussions by prominent Muslim Ulaamas on Hadith and Fiqh",
-  "Enlightening program on Teaching yourself Arabic",
-  "Educative program in Kikuyu Language",
-  "Local and international news at frequent intervals daily",
-  "Talk Shows on Contemporary issues, political, cultural, social and economic issues",
-  "Health and educational programmes",
-  "Outside broadcasting services",
-  "Studio production services for recording programs or commercials/advertisements",
+  "Youth mentorship & leadership programs",
+  "Women empowerment and entrepreneurship training",
+  "Environmental clean-ups & tree planting",
+  "Community health outreach & awareness",
+  "Digital literacy & computer training",
+  "Life skills & financial literacy workshops",
+  "Art, music & storytelling festivals",
+  "Vocational training for unemployed youth",
+  "Community townhalls & civic education",
+  "Sports & talent development initiatives",
+  "Small business incubation & support",
+  "Local events documentation & media services",
 ];
 
 export default function AboutLayout({ children }) {

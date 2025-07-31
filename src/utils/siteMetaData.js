@@ -1,7 +1,7 @@
 // please update required information
 const siteMetadata = {
   title: "95.0 IQRA FM | Idhaailiotofauti.",
-  author: "Dr Mohamed Bahaidar",
+  author: "Kenjava Wakagoto MWaniki",
   headerTitle: "95.0 IQRA FM | The station with a difference.",
   description: "Idhaa inayokupenda kwa ajili ya Allah.",
   language: "en-us",
@@ -9,16 +9,18 @@ const siteMetadata = {
   siteUrl: "https://iqrafm.com", // your website URL
   siteLogo: "/logo.png",
   socialBanner: "/social-banner.png", // add social banner in the public folder
-  email: "contact@iqrafm.com",
+  email: "contact@wakagotofoundation.com",
   github: "https://github.com/salfinity",
-  twitter: "https://twitter.com/iqrafm?lang=en",
-  tiktok: "https://www.tiktok.com/@iqrafm.95.0?lang=en",
-  facebook: "https://www.facebook.com/IdhaaIliotofauti/",
-  instagram: "https://instagram.com/iqrafm?igshid=YmMyMTA2M2Y=",
-  youtube: "https://www.youtube.com/channel/UCM0OVySTrfaHVteZGlwJZSA",
-  instagrambahaidar: "https://www.instagram.com/doctorbahaidar/",
-  linkedin:
-    "https://www.linkedin.com/in/iqra-fm-b099aa268/?originalSubdomain=ke",
+  twitter: "https://x.com/WakagotoK",
+  tiktok: "https://www.tiktok.com/@wakagoto1",
+  facebook:
+    "https://www.facebook.com/groups/492285344227595/posts/8812205205568859/",
+  instagram:
+    "https://www.instagram.com/kenjavawakagoto?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
+  youtube: "https://www.youtube.com/watch?v=tx3oYsoEZR0",
+  instagrambahaidar:
+    "https://www.instagram.com/kenjavawakagoto?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
+  linkedin: "https://www.facebook.com/kenjava/",
   dribbble: "https://www.dribbble.com",
   locale: "en-US",
 };

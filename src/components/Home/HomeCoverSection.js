@@ -10,13 +10,7 @@ const HomeCoverSection = ({ blogs }) => {
   const blog = sortedBlogs[0];
 
   return (
-    <div className="w-full inline-block">
-      <h2
-        className="uppercase  text-3xl tracking-[20px] text-center mt-10 mx-auto font-semibold  
-      justify my-8 sm:text-3xl md:text-4xl text-accent dark:text-accentDark"
-      >
-        Our Articles
-      </h2>
+    <div className="w-full mt-3 inline-block">
       <article className="flex flex-col items-start justify-end mx-5 sm:mx-10 relative h-[60vh] sm:h-[85vh]">
         <div
           className="absolute top-0 left-0 bottom-0 right-0 h-full

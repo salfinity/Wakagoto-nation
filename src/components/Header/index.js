@@ -1,8 +1,9 @@
 "use client";
 import Link from "next/link";
 import Logo from "./Logo";
-import { LinkedinIcon, MoonIcon, SunIcon, TwitterIcon } from "../Icons";
+import { LinkedinIcon, MoonIcon, SunIcon } from "../Icons";
 import { FaFacebook, FaYoutube, FaInstagram } from "react-icons/fa";
+import { BsTwitterX } from "react-icons/bs";
 import { PiTiktokLogoLight } from "react-icons/pi";
 import siteMetadata from "/src/utils/siteMetaData";
 import { useThemeSwitch } from "../Hooks/useThemeSwitch";
@@ -160,7 +161,10 @@ const Header = () => {
           aria-label="Reach out to me via Twitter"
           target="_blank"
         >
-          <TwitterIcon className="hover:scale-125 transition-all ease duration-200" />
+          <BsTwitterX
+            size={25}
+            className="text-black dark:text-white hover:scale-125 transition-all ease duration-200"
+          />
         </a>
         <a
           href={siteMetadata.youtube}
