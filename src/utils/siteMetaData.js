@@ -2,8 +2,8 @@
 const siteMetadata = {
   title: "95.0 IQRA FM | Idhaailiotofauti.",
   author: "Kenjava Wakagoto MWaniki",
-  headerTitle: "95.0 IQRA FM | The station with a difference.",
-  description: "Idhaa inayokupenda kwa ajili ya Allah.",
+  headerTitle: "WAKAGOTO NATION | Impacting generations.",
+  description: "Making the difference.",
   language: "en-us",
   theme: "system", // system, dark or light
   siteUrl: "https://iqrafm.com", // your website URL
