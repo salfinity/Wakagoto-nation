@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export const metadata = {
   title: "About Us",
-  description: "Here are some details about Iqra FM.",
+  description: "Here are some details about Wakagoto Nation.",
 };
 
 export default function About() {

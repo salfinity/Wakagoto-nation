@@ -4,7 +4,7 @@ import Image from "next/image";
 import profileImg from "/public/logo.jpg";
 
 export const metadata = {
-  title: "Contact Us | Iqra FM",
+  title: "Contact Us | Wakagoto Nation",
   description: `Contact us through the form available on this page or email us at ${siteMetadata.email}`,
 };
 

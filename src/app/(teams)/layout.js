@@ -2,7 +2,7 @@ import InsightRoll from "/src/components/About/InsightRoll";
 
 export const metadata = {
   title: "Team | Management",
-  description: "this is the staff of iqra FM.",
+  description: "this is the staff of Wakagoto Nation.",
 };
 
 const insights = [

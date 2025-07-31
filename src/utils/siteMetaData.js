@@ -1,12 +1,12 @@
 // please update required information
 const siteMetadata = {
-  title: "95.0 IQRA FM | Idhaailiotofauti.",
+  title: "WAKAGOTO NATION | Impacting generations.",
   author: "Kenjava Wakagoto MWaniki",
   headerTitle: "WAKAGOTO NATION | Impacting generations.",
   description: "Making the difference.",
   language: "en-us",
   theme: "system", // system, dark or light
-  siteUrl: "https://iqrafm.com", // your website URL
+  siteUrl: "https://wakagoto-nation-7qj3.vercel.app/", // your website URL
   siteLogo: "/logo.png",
   socialBanner: "/social-banner.png", // add social banner in the public folder
   email: "contact@wakagotofoundation.com",

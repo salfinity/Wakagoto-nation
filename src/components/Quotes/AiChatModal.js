@@ -17,7 +17,7 @@ const Modal = ({ isOpen, onClose, onRefresh, children }) => {
       <div className="w-full max-w-lg md:max-w-4xl justify-center bg-white shadow-lg rounded-xl mx-auto px-4 py-4 relative">
         <div className="flex items-center pb-2 border-b">
           <h1 className="bg-gradient-to-r from-blue-500 to-purple-500 text-transparent bg-clip-text text-center py-3 font-bold mr-auto text-6xl">
-            ChatIQRA
+            ChatAIken
           </h1>
           <MdOutlineClose
             className="w-6 h-6 cursor-pointer fill-black hover:fill-red-500 border-2 my-2 mx-2  rounded-full border-black"
